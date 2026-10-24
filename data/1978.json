@@ -1,0 +1,18 @@
+[
+  {
+    "id": "lot-19790918-01",
+    "codice_originale": "NM0089",
+    "titolo": { "italiano": "La Mente Neutrale e la Capacità di Decidere", "originale": "The Neutral Mind and Decision Making" },
+    "data_lezione": "1979-09-18",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com/lecture.xpage?id=NM0089",
+    "podcast": { "audio_url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3", "durata_formattata": "14:05" },
+    "riassunto": {
+      "sintesi_breve": "Spiegazione di come la Mente Neutrale agisca da giudice imparziale.",
+      "punti_chiave": ["La mente negativa protegge dai rischi.", "La mente neutrale integra entrambe."],
+      "citazioni_celebri": ["Quando la mente neutrale ascolta, la decisione che ne scaturisce è priva di karma."],
+      "contenuto_esteso_markdown": "Trascrizione approfondita della lezione del 1979."
+    },
+    "pratica": { "presente": true, "tipo": "Meditazione", "nome": "Meditazione per la Mente Neutrale", "durata_consigliata": "11 minuti", "istruzioni_sintetiche": "Mani al centro del petto, sguardo al naso." }
+  }
+]

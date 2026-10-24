@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="it" class="h-full bg-stone-50">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library of Teachings Italia - Archivio Insegnamenti (1969–2002)</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- FontAwesome per icone -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Configurazione Tailwind e Stili Personalizzati -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    },
+                    colors: {
+                        amber: {
+                            50: '#fffbebee',
+                            100: '#fef3c7',
+                            600: '#d97706',
+                            700: '#b45309',
+                            800: '#92400e',
+                        },
+                        sand: {
+                            50: '#fbf9f5',
+                            100: '#f5f0e6',
+                            200: '#e8dec9',
+                            800: '#52493a',
+                            900: '#363026',
+                        },
+                        sage: {
+                            50: '#f4f7f4',
+                            100: '#e3eae3',
+                            700: '#486352',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="h-full text-stone-800 flex flex-col font-sans antialiased bg-stone-50 selection:bg-amber-200 selection:text-amber-900 pb-12">
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="sticky top-0 z-30 bg-sand-50/90 backdrop-blur-md border-b border-sand-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Brand & Logo -->
+                <div class="flex items-center gap-3 cursor-pointer" onclick="showHomePage()">
+                    <div class="w-11 h-11 rounded-2xl bg-amber-700 text-white flex items-center justify-center shadow-md shadow-amber-700/20 text-xl font-bold font-serif">
+                        🪷
+                    </div>
+                    <div>
+                        <span class="block text-xl font-serif font-bold text-stone-900 tracking-tight leading-tight">
+                            Library of Teachings
+                        </span>
+                        <span class="block text-xs text-amber-800 font-medium tracking-wide uppercase">
+                            Archivio Insegnamenti in Italiano
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Navigation Actions -->
+                <div class="flex items-center gap-3">
+                    <button id="btn-favorites-toggle" onclick="toggleFavoritesView()" class="flex items-center gap-2 px-3.5 py-2 rounded-xl text-sm font-medium border border-stone-200 bg-white hover:bg-stone-50 text-stone-700 transition shadow-sm cursor-pointer">
+                        <i class="fa-regular fa-bookmark text-amber-600" id="fav-icon-nav"></i>
+                        <span class="hidden sm:inline">I Miei Preferiti</span>
+                        <span id="fav-badge" class="bg-amber-100 text-amber-800 text-xs font-bold px-2 py-0.5 rounded-full hidden">0</span>
+                    </button>
+
+                    <button onclick="openInfoModal()" class="flex items-center gap-2 px-3.5 py-2 rounded-xl text-sm font-medium bg-amber-700 hover:bg-amber-800 text-white transition shadow-sm cursor-pointer">
+                        <i class="fa-podcast fa-solid"></i>
+                        <span class="hidden sm:inline">Info Podcast</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTAINER -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1 w-full">
+
+        <!-- SEARCH BAR PER DATA O PAROLA CHIAVE -->
+        <div class="bg-white rounded-2xl p-4 sm:p-6 border border-sand-200 shadow-sm mb-10 max-w-3xl mx-auto">
+            <label for="date-search-input" class="block text-xs font-bold uppercase tracking-wider text-amber-800 mb-2">
+                <i class="fa-regular fa-calendar-check mr-1"></i> Ricerca Rapida
+            </label>
+            <div class="relative flex items-center">
+                <i class="fa-solid fa-magnifying-glass absolute left-4 text-stone-400"></i>
+                <input 
+                    type="text" 
+                    id="date-search-input" 
+                    placeholder="Digita un anno (es. 1979), data precisa (1979-09-18) o un titolo..." 
+                    class="w-full pl-11 pr-24 py-3 bg-stone-50 border border-stone-200 rounded-xl text-stone-800 placeholder-stone-400 text-sm focus:outline-none focus:border-amber-600 focus:bg-white transition"
+                    onkeyup="handleSearchKey(event)"
+                >
+                <button 
+                    onclick="executeSearch()" 
+                    class="absolute right-2 px-4 py-1.5 bg-amber-700 hover:bg-amber-800 text-white text-xs font-semibold rounded-lg transition cursor-pointer"
+                >
+                    Cerca
+                </button>
+            </div>
+            <p class="text-[11px] text-stone-400 mt-2">
+                Esempi di ricerca: <code class="bg-stone-100 px-1 py-0.5 rounded">1979</code>, <code class="bg-stone-100 px-1 py-0.5 rounded">1979-09-18</code>, <code class="bg-stone-100 px-1 py-0.5 rounded">Mente Neutrale</code>
+            </p>
+        </div>
+
+        <!-- VIEW 1: HOME PAGE (Griglia Anni + Ultime Lezioni) -->
+        <div id="home-view" class="space-y-12">
+            <!-- SEZIONE 1: GRIGLIA DEGLI ANNI (1969 - 2002) -->
+            <section>
+                <div class="flex items-center justify-between mb-4">
+                    <div>
+                        <h2 class="text-2xl font-serif font-bold text-stone-900">Seleziona l'Anno della Lezione</h2>
+                        <p class="text-xs text-stone-500 mt-0.5">Sfoglia le lezioni tenute dal 1969 al 2002</p>
+                    </div>
+                    <span class="text-xs bg-amber-100 text-amber-900 font-semibold px-2.5 py-1 rounded-lg">
+                        1969 - 2002
+                    </span>
+                </div>
+
+                <div id="years-grid" class="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-11 gap-2.5">
+                    <!-- Popolata via JavaScript con conteggio dinamico -->
+                </div>
+            </section>
+
+            <!-- SEZIONE 2: ULTIME LEZIONI INSERITE -->
+            <section class="pt-6 border-t border-sand-200">
+                <div class="flex items-center justify-between mb-6">
+                    <div>
+                        <h2 class="text-2xl font-serif font-bold text-stone-900">Ultime Lezioni Inserite</h2>
+                        <p class="text-xs text-stone-500 mt-0.5">Le sintesi e i podcast pubblicati più di recente nell'archivio</p>
+                    </div>
+                </div>
+
+                <div id="latest-lessons-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Popolata via JavaScript -->
+                </div>
+            </section>
+        </div>
+
+        <!-- VIEW 2: LISTA LEZIONI FILTRATE (Per Anno, Ricerca o Preferiti) -->
+        <div id="filtered-view" class="hidden space-y-6">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-sand-100/70 p-6 rounded-2xl border border-sand-200">
+                <div>
+                    <button onclick="showHomePage()" class="inline-flex items-center gap-2 text-xs font-bold text-amber-800 hover:text-amber-900 bg-amber-100 hover:bg-amber-200 px-3 py-1.5 rounded-lg transition mb-2 cursor-pointer">
+                        <i class="fa-solid fa-arrow-left"></i> Torna alla Home / Tutti gli Anni
+                    </button>
+                    <h2 id="filtered-view-title" class="text-2xl font-serif font-bold text-stone-900"></h2>
+                    <p id="filtered-view-subtitle" class="text-xs text-stone-600 mt-0.5"></p>
+                </div>
+                <span id="filtered-count-badge" class="self-start sm:self-auto text-xs font-semibold bg-stone-800 text-white px-3 py-1.5 rounded-xl"></span>
+            </div>
+
+            <div id="filtered-lessons-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Popolato via JS -->
+            </div>
+
+            <div id="filtered-empty" class="hidden text-center py-16 bg-white rounded-2xl border border-dashed border-stone-300">
+                <div class="w-12 h-12 bg-amber-50 text-amber-600 rounded-full flex items-center justify-center mx-auto mb-3 text-xl">
+                    <i class="fa-solid fa-calendar-xmark"></i>
+                </div>
+                <h3 class="text-lg font-serif font-semibold text-stone-800">Nessuna lezione trovata per questa selezione</h3>
+                <p class="text-stone-500 text-xs mt-1 max-w-sm mx-auto">Non sono ancora presenti riassunti o podcast per l'anno o la ricerca specificata.</p>
+                <button onclick="showHomePage()" class="mt-4 px-4 py-2 bg-stone-900 text-white text-xs font-medium rounded-xl hover:bg-stone-800 transition cursor-pointer">
+                    Sfoglia altri anni
+                </button>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- MODAL DETTAGLIO LEZIONE -->
+    <div id="lesson-modal" class="fixed inset-0 z-50 overflow-y-auto bg-stone-900/60 backdrop-blur-sm hidden opacity-0 transition-opacity duration-300">
+        <div class="min-h-screen px-4 text-center flex items-center justify-center py-6 sm:py-12">
+            <div class="bg-sand-50 w-full max-w-3xl rounded-3xl text-left overflow-hidden shadow-2xl transform transition-all border border-sand-200 relative my-auto">
+                
+                <!-- Modal Header -->
+                <div class="p-6 sm:p-8 bg-gradient-to-r from-stone-900 to-stone-800 text-white relative">
+                    <button onclick="closeLessonModal()" class="absolute top-6 right-6 w-9 h-9 bg-white/10 hover:bg-white/20 text-white rounded-full flex items-center justify-center transition cursor-pointer">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                    
+                    <div class="flex items-center gap-2 mb-3 flex-wrap">
+                        <span id="modal-code" class="bg-amber-500/20 text-amber-300 border border-amber-500/30 text-xs px-2.5 py-1 rounded-md font-mono"></span>
+                        <span id="modal-date" class="text-xs text-stone-300 font-semibold bg-white/10 px-2.5 py-1 rounded-md"></span>
+                    </div>
+
+                    <h2 id="modal-title-it" class="text-2xl sm:text-3xl font-serif font-bold text-white leading-tight"></h2>
+                    <p id="modal-title-en" class="text-stone-400 italic text-sm mt-1"></p>
+
+                    <div class="mt-6 flex flex-wrap items-center gap-3 pt-4 border-t border-white/10">
+                        <button id="modal-bookmark-btn" class="flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white px-3.5 py-2.5 rounded-xl font-medium text-sm transition cursor-pointer">
+                            <i class="fa-regular fa-bookmark"></i> <span>Salva nei Preferiti</span>
+                        </button>
+                        <a id="modal-original-link" target="_blank" rel="noopener" class="flex items-center gap-2 text-stone-300 hover:text-white px-3 py-2 text-xs ml-auto transition">
+                            <span>Sito Originale</span> <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Modal Body Content -->
+                <div class="p-6 sm:p-8 space-y-8 max-h-[65vh] overflow-y-auto">
+                    
+                    <!-- Player Audio Integrato + Download MP3 -->
+                    <div class="bg-white p-4 rounded-2xl border border-sand-200 shadow-sm">
+                        <h4 class="text-xs font-bold uppercase tracking-wider text-amber-800 mb-3">
+                            <i class="fa-solid fa-podcast mr-1"></i> Ascolta o Scarica il Podcast
+                        </h4>
+                        <div class="flex flex-col sm:flex-row items-center gap-3">
+                            <audio id="modal-audio-element" controls class="w-full flex-grow h-10">
+                                Il tuo browser non supporta l'elemento audio.
+                            </audio>
+                            <a id="modal-download-btn" download class="w-full sm:w-auto inline-flex items-center justify-center gap-1.5 bg-amber-700 hover:bg-amber-800 text-white text-xs font-semibold px-4 py-2.5 rounded-xl transition shrink-0 shadow-sm">
+                                <i class="fa-solid fa-download"></i> Scarica Audio
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Sintesi -->
+                    <div class="bg-white p-5 rounded-2xl border border-sand-200 shadow-sm">
+                        <h4 class="text-xs font-bold uppercase tracking-wider text-amber-800 mb-2">
+                            <i class="fa-solid fa-feather-pointed mr-1"></i> Sintesi della Lezione
+                        </h4>
+                        <p id="modal-sintesi" class="text-stone-700 leading-relaxed text-base italic"></p>
+                    </div>
+
+                    <!-- Citazione -->
+                    <div id="modal-citazione-container" class="border-l-4 border-amber-600 pl-4 py-2 italic text-stone-700 bg-amber-50/50 rounded-r-xl">
+                        <p id="modal-citazione" class="font-serif text-lg text-stone-800"></p>
+                        <span class="text-xs text-amber-800 font-semibold uppercase tracking-wider block mt-1">— Yogi Bhajan</span>
+                    </div>
+
+                    <!-- Punti Chiave -->
+                    <div>
+                        <h3 class="text-lg font-serif font-semibold text-stone-900 mb-3 flex items-center gap-2">
+                            <i class="fa-solid fa-list-check text-amber-600 text-base"></i> Punti Chiave
+                        </h3>
+                        <ul id="modal-punti-chiave" class="space-y-2 text-stone-700 text-sm"></ul>
+                    </div>
+
+                    <!-- Scheda Pratica -->
+                    <div id="modal-pratica-box" class="hidden bg-sage-50 border border-sage-100 p-6 rounded-2xl shadow-sm">
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="bg-sage-700 text-white text-xs font-bold px-2.5 py-1 rounded-md uppercase tracking-wider">
+                                <i class="fa-solid fa-om mr-1"></i> <span id="modal-pratica-tipo"></span>
+                            </span>
+                            <span id="modal-pratica-durata" class="text-xs font-semibold text-sage-900 bg-sage-100 px-2.5 py-1 rounded-md"></span>
+                        </div>
+                        <h4 id="modal-pratica-nome" class="text-xl font-serif font-bold text-sage-900 mb-2"></h4>
+                        <p id="modal-pratica-istruzioni" class="text-stone-700 text-sm leading-relaxed whitespace-pre-line"></p>
+                    </div>
+
+                    <!-- Trascrizione Estesa -->
+                    <div>
+                        <h3 class="text-lg font-serif font-semibold text-stone-900 mb-3 flex items-center gap-2">
+                            <i class="fa-solid fa-book-open text-amber-600 text-base"></i> Trascrizione / Approfondimento
+                        </h3>
+                        <div id="modal-contenuto-esteso" class="prose prose-stone max-w-none text-stone-700 text-sm leading-relaxed space-y-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL INFO -->
+    <div id="info-modal" class="fixed inset-0 z-50 overflow-y-auto bg-stone-900/60 backdrop-blur-sm hidden opacity-0 transition-opacity duration-300">
+        <div class="min-h-screen px-4 text-center flex items-center justify-center py-12">
+            <div class="bg-white w-full max-w-md rounded-3xl text-left overflow-hidden shadow-2xl p-6 relative my-auto border border-stone-200">
+                <button onclick="closeInfoModal()" class="absolute top-5 right-5 text-stone-400 hover:text-stone-700 cursor-pointer">
+                    <i class="fa-solid fa-xmark text-lg"></i>
+                </button>
+                <h3 class="text-xl font-serif font-bold text-stone-900 mb-2">Info sul Progetto</h3>
+                <p class="text-stone-600 text-xs leading-relaxed">
+                    Sito personale di studio per l'archivio della **Library of Teachings** in lingua italiana, diviso in moduli ad alta velocità con audio integrati e trascrizioni essenziali.
+                </p>
+                <div class="mt-6">
+                    <button onclick="closeInfoModal()" class="w-full py-2.5 bg-stone-900 text-white rounded-xl text-xs font-semibold cursor-pointer">
+                        Chiudi
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script Logica Modularizzata -->
+    <script src="js/app.js"></script>
+</body>
+</html>
