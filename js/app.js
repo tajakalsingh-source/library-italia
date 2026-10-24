@@ -1,8 +1,7 @@
 // Stato Globale dell'applicazione
 let state = {
     favorites: JSON.parse(localStorage.getItem('lot_favorites') || '[]'),
-    cachedLessons: {}, // Cache per salvare le lezioni scaricate ed evitare richieste duplicate
-    allLoadedLessons: []
+    cachedLessons: {} // Cache per salvare le lezioni scaricate ed evitare richieste duplicate
 };
 
 // Avvio dell'App
@@ -14,6 +13,8 @@ async function initApp() {
     renderYearsGrid();
     updateFavBadge();
     await loadLatestLessons();
+    // Calcola automaticamente i contatori di tutti gli anni in background
+    checkAllYearsCounts();
 }
 
 // 1. Genera la griglia degli Anni (1969 - 2002)
@@ -37,13 +38,44 @@ function renderYearsGrid() {
     container.innerHTML = html;
 }
 
-// 2. Carica il file ultime.json per la Home Page
+// 2. Controlla e calcola automaticamente il conteggio per ogni anno presente nella cartella data/
+async function checkAllYearsCounts() {
+    for (let year = 1969; year <= 2002; year++) {
+        const countBadge = document.getElementById(`year-count-${year}`);
+        if (!countBadge) continue;
+
+        try {
+            // Se abbiamo già in cache l'anno, usiamo la lunghezza
+            if (state.cachedLessons[`year_${year}`]) {
+                const count = state.cachedLessons[`year_${year}`].length;
+                countBadge.textContent = count >앗 ? `${count} lez.` : '0 lez.';
+                continue;
+            }
+
+            const response = await fetch(`data/${year}.json`);
+            if (response.ok) {
+                const lessons = await response.json();
+                state.cachedLessons[`year_${year}`] = lessons;
+                lessons.forEach(l => state.cachedLessons[l.id] = l);
+                
+                const count = lessons.length;
+                countBadge.textContent = count > 0 ? `${count} lez.` : '0 lez.';
+            } else {
+                countBadge.textContent = '0 lez.';
+            }
+        } catch (err) {
+            // Se il file JSON dell'anno non esiste ancora, mostra 0
+            countBadge.textContent = '0 lez.';
+        }
+    }
+}
+
+// 3. Carica il file ultime.json per la Home Page
 async function loadLatestLessons() {
     try {
         const response = await fetch('data/ultime.json');
         const data = await response.json();
         
-        // Aggiungi alla cache locale
         data.forEach(l => state.cachedLessons[l.id] = l);
         
         const container = document.getElementById('latest-lessons-grid');
@@ -53,12 +85,11 @@ async function loadLatestLessons() {
     }
 }
 
-// 3. Carica il file specifico dell'anno (Lazy Loading) es. data/1979.json
+// 4. Carica il file specifico dell'anno (Lazy Loading) es. data/1979.json
 async function loadYearLessons(year) {
     let lessons = [];
 
     try {
-        // Se l'anno è già in cache, non fare una nuova chiamata di rete
         if (state.cachedLessons[`year_${year}`]) {
             lessons = state.cachedLessons[`year_${year}`];
         } else {
@@ -70,22 +101,18 @@ async function loadYearLessons(year) {
             }
         }
 
-        // Aggiorna il contatore sul pulsante dell'anno
-        const countBadge = document.getElementById(`year-count-${year}`);
-        if (countBadge) countBadge.textContent = `${lessons.length} lez.`;
-
         document.getElementById('filtered-view-title').textContent = `Lezioni dell'Anno ${year}`;
         document.getElementById('filtered-view-subtitle').textContent = `Archivio storico degli insegnamenti del ${year}`;
         
         renderFilteredLessons(lessons);
 
     } catch (err) {
-        console.warn(`File data/${year}.json non ancora presente o vuoto.`);
+        console.warn(`File data/${year}.json non trovato.`);
         renderFilteredLessons([]);
     }
 }
 
-// 4. Gestione della Ricerca per Data / Titolo
+// 5. Gestione della Ricerca per Data o Titolo
 function handleSearchKey(event) {
     if (event.key === 'Enter') executeSearch();
 }
@@ -94,15 +121,13 @@ async function executeSearch() {
     const query = document.getElementById('date-search-input').value.trim().toLowerCase();
     if (!query) return;
 
-    // Se la query è un anno a 4 cifre (es. 1979), carica direttamente l'anno
     if (/^\d{4}$/.test(query) && parseInt(query) >= 1969 && parseInt(query) <= 2002) {
         loadYearLessons(parseInt(query));
         return;
     }
 
-    // Altrimenti cerca tra tutte le lezioni attualmente caricate in memoria
     const matches = Object.values(state.cachedLessons)
-        .filter(item => Array.isArray(item) ? false : true) // Filtra array anno
+        .filter(item => Array.isArray(item) ? false : true)
         .filter(l => 
             l.data_lezione?.includes(query) || 
             l.titolo?.italiano?.toLowerCase().includes(query) || 
@@ -115,7 +140,7 @@ async function executeSearch() {
     renderFilteredLessons(matches);
 }
 
-// 5. Preferiti
+// 6. Preferiti
 function toggleFavoritesView() {
     const favLessons = Object.values(state.cachedLessons)
         .filter(l => l.id && state.favorites.includes(l.id));
@@ -135,7 +160,6 @@ function toggleFavorite(id, event) {
     localStorage.setItem('lot_favorites', JSON.stringify(state.favorites));
     updateFavBadge();
 
-    // Rinfresca le viste se necessario
     const filteredView = document.getElementById('filtered-view');
     if (!filteredView.classList.contains('hidden')) {
         const title = document.getElementById('filtered-view-title').textContent;
@@ -249,7 +273,6 @@ function openLessonModal(id) {
         dlBtn.style.display = 'none';
     }
 
-    // Citazione
     const citContainer = document.getElementById('modal-citazione-container');
     if (lesson.riassunto.citazioni_celebri && lesson.riassunto.citazioni_celebri.length > 0) {
         document.getElementById('modal-citazione').textContent = `"${lesson.riassunto.citazioni_celebri[0]}"`;
@@ -258,7 +281,6 @@ function openLessonModal(id) {
         citContainer.classList.add('hidden');
     }
 
-    // Punti Chiave
     document.getElementById('modal-punti-chiave').innerHTML = (lesson.riassunto.punti_chiave || []).map(p => `
         <li class="flex items-start gap-2">
             <i class="fa-solid fa-check text-amber-700 text-xs mt-1"></i>
@@ -266,7 +288,6 @@ function openLessonModal(id) {
         </li>
     `).join('');
 
-    // Pratica
     const praticaBox = document.getElementById('modal-pratica-box');
     if (lesson.pratica && lesson.pratica.presente) {
         document.getElementById('modal-pratica-tipo').textContent = lesson.pratica.tipo;
@@ -278,11 +299,9 @@ function openLessonModal(id) {
         praticaBox.classList.add('hidden');
     }
 
-    // Contenuto esteso
     document.getElementById('modal-contenuto-esteso').innerHTML = `<p>${lesson.riassunto.contenuto_esteso_markdown || ''}</p>`;
     document.getElementById('modal-original-link').href = lesson.url_originale || '#';
 
-    // Preferito Modal Button
     const favBtn = document.getElementById('modal-bookmark-btn');
     const isFav = state.favorites.includes(lesson.id);
     favBtn.onclick = (e) => toggleFavorite(lesson.id, e);
