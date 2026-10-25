@@ -1,10 +1,783 @@
 [
- {
-   "id": "lot-19690209-01",
-   "titolo_italiano": "002 - 1969-02-09 Library",
-   "titolo_originale": "Two Ways to Charge the Solar System (Centers)",
-   "url_originale": "https://www.libraryofteachings.com/lecture.xqy?q=date:1969-02-09&id=a5b9cd40-4962-f854-2df8-174aa96f483a",
-   "sintesi_breve": "Questo documento analizza la lezione di Yogi Bhajan del 9 febbraio 1969. La lezione si concentra sul potere del mantra Ek Ong Kar, Sat Nam Siri Wah Guru e sul raggiungimento dell'unione con il divino attraverso la meditazione e la devozione.",
-   "punti_chiave": "Potere del mantra: Yogi Bhajan sottolinea il potere trasformativo del mantra -Ek Ong Kar, Sat Nam Siri Wah Guru-. "
- }
+  {
+    "id": "lot-19690000-01",
+    "codice_originale": "001",
+    "titolo": {
+      "italiano": "Introduzione al Kundalini Yoga",
+      "originale": "Introduction to Kundalini Yoga"
+    },
+    "data_lezione": "1969-01-01",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Introduzione al potere del Kundalini Yoga per risvegliare l'energia vitale bloccata alla base della spina dorsale (muladhara chakra) e raggiungere la supercoscienza.",
+      "punti_chiave": [
+        "La Kundalini è la forza vitale che connette il corpo alla coscienza universale.",
+        "Il risveglio avviene mediante l'unione di Prana (forza vitale) e Apana (forza eliminatrice) nel Nabhi Chakra.",
+        "Importanza del Neck Lock (Jalandhara Bandha) per canalizzare l'energia in sicurezza.",
+        "La semplicità e l'accessibilità della pratica costante guidata dalla saggezza dell'anima."
+      ],
+      "citazioni_celebri": [
+        "Senza aver risvegliato la kundalini, la tua anima non è risvegliata. E se la tua anima è risvegliata, cos'altro ti serve?"
+      ],
+      "contenuto_esteso_markdown": "### Introduzione al Kundalini Yoga\nQuesto documento analizza le idee principali degli insegnamenti di Yogi Bhajan sul Kundalini Yoga.\n\n#### Temi principali:\n- **Prana e Apana:** La combinazione delle due forze vitali genera il calore necessario per sbloccare i chakra.\n- **Canali energetici:** Ida, Pingala e Sushumna guidano la risalita dell'energia fino alla ghiandola pineale."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Kriya",
+      "nome": "Risveglio del Prana e Neck Lock",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Seduti con la colonna eretta, applicare il Neck Lock (Jalandhara Bandha), respirare profondamente portando l'attenzione al punto dell'ombelico."
+    }
+  },
+  {
+    "id": "lot-19690209-01",
+    "codice_originale": "002",
+    "titolo": {
+      "italiano": "Due modi per caricare il centro solare",
+      "originale": "Two Ways to Charge the Solar System (Centers)"
+    },
+    "data_lezione": "1969-02-09",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com/lecture.xqy?q=date:1969-02-09&id=a5b9cd40-4962-f854-2df8-174aa96f483a",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "14:05"
+    },
+    "riassunto": {
+      "sintesi_breve": "Esplorazione del potere del mantra Ek Ong Kar Sat Nam Siri Wha Guru per sbloccare il plesso solare e trascendere il ciclo del karma.",
+      "punti_chiave": [
+        "Apertura del plesso solare attraverso il suono (Naad).",
+        "Il mantra Ek Ong Kar Sat Nam Siri Wha Guru agisce come una nota precisa su un pianoforte.",
+        "La Natura come madre amorevole risponde a chi affida il proprio libero arbitrio alla volontà divina.",
+        "L'umiltà e il servizio disinteressato superano la legge di azione e reazione."
+      ],
+      "citazioni_celebri": [
+        "L'uomo non è venuto in questo mondo per ottenere benefici, non scambiare, non chiedere cose, sii uno con il divino."
+      ],
+      "contenuto_esteso_markdown": "### Caricare il Centro Solare\nInsegnamento incentrato sulla trascendenza delle fluttuazioni del tempo e della ricchezza materiale attraverso la carica dell'energia cosmica interiore."
+    },
+    "pratica": {
+      "presente": false,
+      "tipo": "Meditazione",
+      "nome": "Meditazione per il Centro Solare",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Recitazione del mantra Ek Ong Kar Sat Nam Siri Wha Guru mantenendo la postura eretta e concentrazione al plesso solare."
+    }
+  },
+  {
+    "id": "lot-19690330-01",
+    "codice_originale": "003",
+    "titolo": {
+      "italiano": "La via divina e il potere della tolleranza",
+      "originale": "Tom Law Tapes #2"
+    },
+    "data_lezione": "1969-03-30",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com/lecture.xqy?q=date:1969-03-30",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "14:05"
+    },
+    "riassunto": {
+      "sintesi_breve": "Analisi della natura duale dell'uomo, della tolleranza come vera forza e della paura come principale blocco spirituale.",
+      "punti_chiave": [
+        "La vera potenza risiede nella tolleranza e nella capacita di rimanere imperturbati.",
+        "La paura dell'insicurezza è il blocco principale che impedisce la crescita.",
+        "Il servizio disinteressato (Nishkaam Seva) pulisce il karma.",
+        "Importanza di incanalare le energie invece di sopprimerle."
+      ],
+      "citazioni_celebri": [
+        "Il potere reale non è nel mostrare che sono potente, il potere reale è tollerare.",
+        "Il mio compito è creare insegnanti, non diventare io stesso un insegnante."
+      ],
+      "contenuto_esteso_markdown": "### Tolleranza e Crescita Spirituale\nDiscorso incentrato sul superamento dell'ego e sull'equilibrio tra il dare e il ricevere."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Meditazione",
+      "nome": "Proiezione di Luce e Canto di Benedizione",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Meditazione guidata con canto 'May the longtime sunshine upon you' e proiezione di pensieri positivi."
+    }
+  },
+  {
+    "id": "lot-19690402-01",
+    "codice_originale": "004",
+    "titolo": {
+      "italiano": "Il dono del Prana e la connessione divina",
+      "originale": "Tom Law Tapes #3"
+    },
+    "data_lezione": "1969-04-02",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Insegnamento sulla presenza della divinità in ogni respiro e sul superamento dell'illusione della sofferenza umana.",
+      "punti_chiave": [
+        "Ogni respiro è un veicolo che ci riempie di carica e potere divino.",
+        "La sofferenza nasce dal desiderio che la vita si svolga esclusivamente secondo i nostri piani.",
+        "La preghiera focalizzata unita a corpo, respiro e mente viene sempre esaudita.",
+        "Seguire con dedizione gli insegnamenti del maestro conduce alla grandezza."
+      ],
+      "citazioni_celebri": [
+        "Ogni respiro ci riempie di potere divino e siamo la più grande manifestazione del divino."
+      ],
+      "contenuto_esteso_markdown": "### La Divinità del Respiro\nSpiegazione dettagliata della semplicità della verità interiore e del valore inestimabile dell'energia pranica."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Kriya",
+      "nome": "Kriya per la Connessione Pranica",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Pratica del respiro consapevole abbinata al mantra Ek Ong Kar Sat Nam Siri Wah Guru."
+    }
+  },
+  {
+    "id": "lot-19690409-01",
+    "codice_originale": "005",
+    "titolo": {
+      "italiano": "Il potere della parola e la Ghiandola Pituitaria",
+      "originale": "Tom Law Tapes #4"
+    },
+    "data_lezione": "1969-04-09",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Analisi dell'impatto delle parole e della verità sulla salute, della disciplina come fonte di felicità e del ruolo della ghiandola pituitaria.",
+      "punti_chiave": [
+        "Parlare e ascoltare solo la verità porta allo stato di Satsiddi.",
+        "La disciplina del respiro e del corpo è la chiave per la felicità duratura.",
+        "La ghiandola pituitaria controlla l'intuizione e guida il destino personale.",
+        "L'amore è la forza più tollerante, capace di sacrificarsi per un ideale supremo."
+      ],
+      "citazioni_celebri": [
+        "Parlare male di qualcuno è come invitarsi la malattia addosso.",
+        "Come mangerete, così sarà la vostra mente."
+      ],
+      "contenuto_esteso_markdown": "### Linguaggio e Ghiandola Pituitaria\nUn approfondimento sul legame tra l'alimentazione, lo spirito con cui si prepara il cibo e la chiarezza mentale."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Meditazione",
+      "nome": "Meditazione sul Punto dell'Ombelico e Pituitaria",
+      "durata_consigliata": "15 minuti",
+      "istruzioni_sintetiche": "Concentrazione dell'energia vitale al punto dell'ombelico e visualizzazione del flusso che raggiunge la punta delle dita dei piedi."
+    }
+  },
+  {
+    "id": "lot-19690413-01",
+    "codice_originale": "006",
+    "titolo": {
+      "italiano": "Gli Insegnamenti di Guru Nanak e l'Uguaglianza",
+      "originale": "Discorso sul Guru Nanak"
+    },
+    "data_lezione": "1969-04-13",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Commemorazione del 500° anniversario di Guru Nanak e celebrazione dei tre principi fondanti del suo insegnamento.",
+      "punti_chiave": [
+        "Naam Japana: Cantare le lodi del Creatore e meditare su di Lui.",
+        "Vand Chako: Condividere ciò che si possiede con chi è nel bisogno.",
+        "Dasa Nava Dhi Keerat Karo: Guadagnarsi da vivere onestamente.",
+        "Unità di tutta l'umanità al di là di religioni o caste."
+      ],
+      "citazioni_celebri": [
+        "Da un solo Dio proviene tutta la creazione, chi è buono e chi è cattivo provengono dallo stesso unico raggio."
+      ],
+      "contenuto_esteso_markdown": "### Commemorazione di Guru Nanak\nStorie ed episodi storici tratti dalla vita di Guru Nanak, tra cui la visita alla Mecca e il messaggio di uguaglianza universale."
+    },
+    "pratica": {
+      "presente": false,
+      "tipo": "Meditazione",
+      "nome": "Naam Simran",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Recitazione meditativa in silenzio o in gruppo incentrata sui principi del Naam."
+    }
+  },
+  {
+    "id": "lot-19690416-01",
+    "codice_originale": "007",
+    "titolo": {
+      "italiano": "Tecniche di risveglio e l'esercizio del Termometro",
+      "originale": "Tom Law Tapes #7"
+    },
+    "data_lezione": "1969-04-16",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Esercizi di risveglio muscolare mattutino, regole dietetiche, salute riproduttiva e meditazione solare domenicale.",
+      "punti_chiave": [
+        "L'importanza di allungare i muscoli al risveglio per mantenere l'equilibrio magnetico.",
+        "Consigli pratici su cibo, docce fredde e distanziamento tra pasti e attività sessuale.",
+        "Esercizio del termometro (sollevamento gamba a 90 gradi) per testare il sistema nervoso.",
+        "Respirazione solare attraverso la narice destra per stimolare la gioia interiore."
+      ],
+      "citazioni_celebri": [
+        "Più profondo e profondo sarà il respiro, più felice e felice sarai."
+      ],
+      "contenuto_esteso_markdown": "### Anatomia Yogica e Routine Mattutina\nIstruzioni dettagliate per la manutenzione fisica del corpo e la stimolazione dei nervi tramite Mool Bandh."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Kriya",
+      "nome": "Esercizio del Termometro e Respirazione Solare",
+      "durata_consigliata": "5 minuti",
+      "istruzioni_sintetiche": "Sollevare una gamba a 90 gradi per 3 minuti seguito da 2 minuti di respirazione profonda dalla narice destra."
+    }
+  },
+  {
+    "id": "lot-19690425-01",
+    "codice_originale": "008",
+    "titolo": {
+      "italiano": "Il respiro come carica divina e la fisiologia dello Yoga",
+      "originale": "Tom Law Tapes #11"
+    },
+    "data_lezione": "1969-04-25",
+    "luogo_originale": "Claremont, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "La lezione approfondisce l'anatomia energetica (72.000 nervi, 26 vertebre, ghiandola pituitaria) e la scienza del Pranayama.",
+      "punti_chiave": [
+        "Seethli Pranayam (Respiro del Serpente) per purificare il sangue e dissolvere i blocchi emotivi.",
+        "Respiro di Fuoco per pulire i polmoni e stimolare l'ipofisi.",
+        "Gestione dell'ego positivo e superamento dell'uso di sostanze stupefacenti.",
+        "Il ciclo della vita suddiviso in tre fasi di 18 anni."
+      ],
+      "citazioni_celebri": [
+        "Lo spirito di Dio mi ha fatto e il respiro dell'Onnipotente mi ha dato la vita.",
+        "Un uomo realizzato da Dio è il più grande donatore."
+      ],
+      "contenuto_esteso_markdown": "### Fisiologia Yogica Avanzata\nStudio delle posture per la salute di fegato, milza e cistifellea e dell'impatto della posizione del Cobra."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Pranayama",
+      "nome": "Seethli Pranayam",
+      "durata_consigliata": "3-5 minuti",
+      "istruzioni_sintetiche": "Inspirare profondamente attraverso la lingua arrotolata a U (o labbra socchiuse), espirare lentamente dal naso."
+    }
+  },
+  {
+    "id": "lot-19690507-01",
+    "codice_originale": "009",
+    "titolo": {
+      "italiano": "Fondamenti della Realizzazione del Sé e Capacità Polmonare",
+      "originale": "Tom Law Tapes #13"
+    },
+    "data_lezione": "1969-05-07",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Relazione tra la capacità polmonare, la stabilità emotiva, le leggi del Karma e la tecnologia del Nabhi Kriya.",
+      "punti_chiave": [
+        "Una capacità polmonare superiore a 700cc garantisce la capacità di rimanere saldi nella verità.",
+        "Ridurre i respiri al minuto a 4 o 1 eleva la consapevolezza allo stato di 'Dio vivente'.",
+        "Le cinque leggi cosmiche per una vita felice basate sulla dipendenza energetica dal Creatore.",
+        "Il karma e la riflessione temporale delle azioni che ritornano entro un anno solare."
+      ],
+      "citazioni_celebri": [
+        "La felicità è il momento in cui la verità guida ogni azione."
+      ],
+      "contenuto_esteso_markdown": "### Il Valore della Respirazione\nAnalisi dettagliata della postura e dell'impatto del respiro di fuoco sulla ghiandola pituitaria."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Kriya",
+      "nome": "Nabhi Kriya con Sat Nam",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Utilizzo del punto dell'ombelico e della recitazione del mantra Sat Nam per bilanciare il centro dell'energia."
+    }
+  },
+  {
+    "id": "lot-19690705-01",
+    "codice_originale": "010",
+    "titolo": {
+      "italiano": "Lo Yoga della Consapevolezza e la riduzione dell'Ego",
+      "originale": "Esercizi per Diminuire l'Ego"
+    },
+    "data_lezione": "1969-07-05",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "L'uomo come triade di spirito, mente e corpo. Annuncio del passaggio all'Era dell'Acquario e spiegazione di Sat Kriya.",
+      "punti_chiave": [
+        "L'uomo possiede il libero arbitrio ed è potenziale immagine di Dio.",
+        "Gian Mudra e Serratura di Venere per canalizzare i circuiti energetici.",
+        "Unione di Prana e Apana attraverso il canale Sushumna.",
+        "Significato profondo di Ek Ong Kar e Wahe Guru."
+      ],
+      "citazioni_celebri": [
+        "La verità è che non siete uno, siete tre: il vostro essere spirituale, il vostro essere mentale e il vostro essere fisico.",
+        "Non stiamo creando Chela... stiamo entrando nella nuova era, l'era della verità."
+      ],
+      "contenuto_esteso_markdown": "### Transizione Epocale\nLa fine dell'era dei segreti e la necessità di formare nuovi insegnanti preparati invece di semplici seguaci."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Kriya",
+      "nome": "Sat Kriya e Nadi Shodhani Kriya",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Far vibrare il punto dell'ombelico pronunciando Sat Nam per far risalire l'energia lungo la colonna vertebrale."
+    }
+  },
+  {
+    "id": "lot-19690706-01",
+    "codice_originale": "011",
+    "titolo": {
+      "italiano": "Controllo Emozionale e Sviluppo del Potere Mentale",
+      "originale": "Controllo Emotivo"
+    },
+    "data_lezione": "1969-07-06",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "L'integrazione tra la sopravvivenza materiale e la crescita spirituale, il ruolo del denaro e la parabola di Kabir.",
+      "punti_chiave": [
+        "La mente è miliardi di volte più veloce del corpo fisico.",
+        "Il denaro è un mezzo di comunicazione utile solo finché dura il respiro.",
+        "Evitare l'ego spirituale attraverso la concentrazione unidirezionale (one-pointedness).",
+        "Sviluppo della Drab Drashti per conoscere l'ignoto."
+      ],
+      "citazioni_celebri": [
+        "Non c'è potere senza la concentrazione unidirezionale della mente.",
+        "Qualunque cosa tu faccia, provochi una causa per avere un effetto."
+      ],
+      "contenuto_esteso_markdown": "### Mente e Karma\nAnalisi dei Tattva (aria, acqua, terra) e delle tecniche di respirazione a narici alternate per il raggiungimento di Suksham Samadhi."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Pranayama",
+      "nome": "Respirazione a Narici Alternate per il Controllo Emotivo",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Mano sinistra in Gian Mudra, inspirare dalla narice sinistra chiudendo la destra con il pollice, espirare dalla destra."
+    }
+  },
+  {
+    "id": "lot-19690924-01",
+    "codice_originale": "012",
+    "titolo": {
+      "italiano": "Superare i blocchi personali e identificarsi con Sat Nam",
+      "originale": "La Via della Verità"
+    },
+    "data_lezione": "1969-09-24",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Distinzione tra calma interiore e ricchezza materiale, la natura dei blocchi psicologici (hang-ups) e la tradizione dell'offerta.",
+      "punti_chiave": [
+        "I blocchi mentali (paura, odio, insicurezza) sono creazioni che divorano la felicità.",
+        "Sat Nam agisce come una carta d'identità universale firmata dal Creatore.",
+        "Toccare i piedi del maestro trasferisce il prana dai punti terminali dei nervi.",
+        "L'esperienza della morte come bilancio d'esame dei propri debiti karmici."
+      ],
+      "citazioni_celebri": [
+        "Sat è la Verità, Nam è l'Identità. Identificarsi con la Verità permette di muoversi nell'universo senza blocchi."
+      ],
+      "contenuto_esteso_markdown": "### Il Volo Diretto verso l'Assoluto\nIl Kundalini Yoga come metodo rapido per adattarsi alla velocità richiesta dall'Era dell'Acquario."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Meditazione",
+      "nome": "Meditazione Sat Nam per la Calma Interiore",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Recitazione ritmica di Sat Nam integrando il respiro e distanziando il consumo di acqua di 1 ora dopo la pratica."
+    }
+  },
+  {
+    "id": "lot-19690926-01",
+    "codice_originale": "013",
+    "titolo": {
+      "italiano": "God and You: La Scienza della Vibrazione e del Suono",
+      "originale": "Lecture - God and You"
+    },
+    "data_lezione": "1969-09-26",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "La vicinanza di Dio attraverso la fede, la registrazione del suono nell'etere e le profezie sull'Era dell'Acquario.",
+      "punti_chiave": [
+        "Ogni parola pronunciata crea una vibrazione permanente nell'etere che forma la personalità.",
+        "Nell'Era dell'Acquario il cuore sostituirà il cervello e i possedimenti materiali saranno un peso.",
+        "Dio come 'Computer' che calcola le azioni umane.",
+        "Servire il Creatore rende il Tempo un proprio servitore."
+      ],
+      "citazioni_celebri": [
+        "Ogni uomo che è buono è un Dio.",
+        "Quando non avevi i denti, Egli ti ha dato il latte; ora che ti ha dato i denti, non ti darà il cibo?"
+      ],
+      "contenuto_esteso_markdown": "### La Vibrazione Sacra\nSpiegazione del Mayur Dand Mudra e dell'esercizio di macinazione del tronco sull'ombelico."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Kriya",
+      "nome": "Mayur Dand Mudra e Grinding",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Rotazione del tronco sull'ombelico accompagnata dal Respiro di Fuoco per raddrizzare il campo magnetico."
+    }
+  },
+  {
+    "id": "lot-19690927-01",
+    "codice_originale": "014",
+    "titolo": {
+      "italiano": "Meditazione, Strutture Sociali e la Sacralità della Donna",
+      "originale": "Lezione del Maestro"
+    },
+    "data_lezione": "1969-09-27",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "La meditazione come attitudine mentale, confronto tra matrimoni combinati e d'amore, e la responsabilità della maternità.",
+      "punti_chiave": [
+        "Il maestro mette alla prova l'ego dell'allievo afferrando la sua 'coda' di negatività.",
+        "Il matrimonio combinato indiano basato su 35 fattori di compatibilità e supporto familiare.",
+        "La donna come Prakriti (potere creativo) e la sacralità della gravidanza dal quinto mese.",
+        "Sat Nam come telecomando per la verità interiore."
+      ],
+      "citazioni_celebri": [
+        "La meditazione è un'attitudine confermata di una persona che non viene scossa.",
+        "Non è la vita che conta, è il coraggio che ci metti."
+      ],
+      "contenuto_esteso_markdown": "### Dovere e Armonia Sociale\nIl dovere come vero fondamento dell'amore e proposta di centri di lavoro e disciplina per adolescenti."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Meditazione",
+      "nome": "Meditazione con Moolbandh su Sat Nam",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Recitazione di Sat Nam applicando la contrazione del Moolbandh per far fluire l'energia lungo la colonna."
+    }
+  },
+  {
+    "id": "lot-19690928-01",
+    "codice_originale": "015",
+    "titolo": {
+      "italiano": "Mantra Yoga e la Maestria dei Nove Cancelli",
+      "originale": "Lezione di Mantra Yoga"
+    },
+    "data_lezione": "1969-09-28",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Controllo dei 9 cancelli del corpo per accedere al decimo cancello, igiene del tempio fisico e fasi dello sviluppo umano.",
+      "punti_chiave": [
+        "Controllo degli organi di senso per instaurare un 'pilota automatico' spirituale.",
+        "Le quattro fasi della crescita: conoscere, acquisire, padroneggiare, ricevere riconoscimento.",
+        "Manutenzione della pelle (terzo polmone), dei piedi e cura dei capelli per conservare l'energia pranica.",
+        "Insegnare una materia è il modo definitivo per padroneggiarla."
+      ],
+      "citazioni_celebri": [
+        "Chi possiede un linguaggio dolce domina il mondo.",
+        "Il sorriso è la chiave per vivere in armonia con il tempo."
+      ],
+      "contenuto_esteso_markdown": "### Il Tempio del Corpo\nAnalisi del mantra Om Tat Sat e Sat Nam per attivare i 72.000 nervi."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Kriya",
+      "nome": "Pratyahar e Concentrazione Pituitaria",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Respirazione profonda, Venus Lock e focalizzazione al terzo occhio con contrazione del Moolbandh."
+    }
+  },
+  {
+    "id": "lot-19691003-01",
+    "codice_originale": "016",
+    "titolo": {
+      "italiano": "La Realtà della Felicità e il Potere Curativo",
+      "originale": "Lezione sulla Felicità"
+    },
+    "data_lezione": "1969-10-03",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "I momenti difficili come opportunità spirituali, trasmissione dell'energia curativa nelle mani e il movimento 3HO.",
+      "punti_chiave": [
+        "La vera ricchezza consiste nel vivere consapevoli del divino.",
+        "Tecnica di meditazione per canalizzare l'energia pranica nelle mani a scopo di guarigione.",
+        "Sat Nam come vibrazione dell'identità originaria che libera dall'illusione.",
+        "L'introspezione e l'auto-rispetto per superare le distrazioni della lussuria."
+      ],
+      "citazioni_celebri": [
+        "Riconoscere se stessi come Sat Nam porta alla libertà e al potere spirituale."
+      ],
+      "contenuto_esteso_markdown": "### 3HO: Sano, Felice, Santo\nDiscorso sul potere trasformativo del suono sacri per stabilire la pace."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Meditazione",
+      "nome": "Meditazione per la Guarigione Pranica",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Focalizzazione dell'energia nelle palme delle mani abbinata alla recitazione di Sat Nam."
+    }
+  },
+  {
+    "id": "lot-19691015-01",
+    "codice_originale": "017",
+    "titolo": {
+      "italiano": "La Meccanica del Sat Kriya e l'Onda di Sat Nam",
+      "originale": "Esplorazione della Coscienza"
+    },
+    "data_lezione": "1969-10-15",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "L'analogia dell'onda oceanica per Sat Nam, la tecnologia del Sat Kriya per assestare la mente e la cura della colonna vertebrale.",
+      "punti_chiave": [
+        "Nam è la piccola cresta dell'onda che cavalca l'oceano infinito di Sat.",
+        "Sat Kriya agisce come un vibratore meccanico che assesta la mente come cemento armato.",
+        "L'importanza della doccia fredda quotidiana per aprire i capillari e rimuovere le tossine dai pori.",
+        "Definizione pragmatica di peccato come azione che tormenta la propria coscienza."
+      ],
+      "citazioni_celebri": [
+        "Dio deve essere percepito concretamente, come il gusto di un gelato o il dolore di uno schiaffo."
+      ],
+      "contenuto_esteso_markdown": "### Geometria Sacra del 108\nSpiegazione della numerologia universale del 9 e delle dieci fasi del cammino verso la maestria."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Kriya",
+      "nome": "Sat Kriya Completo",
+      "durata_consigliata": "3-11 minuti",
+      "istruzioni_sintetiche": "Seduti sui talloni, braccia in alto con indici tesi, contrarre l'ombelico su Sat e rilasciare su Nam."
+    }
+  },
+  {
+    "id": "lot-19691017-01",
+    "codice_originale": "018",
+    "titolo": {
+      "italiano": "Lezioni su Venere: Carità Spirituale e Trataka Kriya",
+      "originale": "Lezione su Venere #5"
+    },
+    "data_lezione": "1969-10-17",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "La carità suprema consistente nell'ispirare gli altri, le leggi dei Sehenskar e del Karma, e la pratica visiva del Trataka Kriya.",
+      "punti_chiave": [
+        "Mostrare la via a un'altra anima è la forma più alta di carità sulla terra.",
+        "I Sehenskars sono le esperienze accumulate che richiedono la condivisione della saggezza per essere risolte.",
+        "Il ciclo del Karma legato ai pianeti con periodi di 7 anni e mezzo.",
+        "Trataka Kriya con il partner per proiettare amore e luce divina attraverso gli occhi."
+      ],
+      "citazioni_celebri": [
+        "L'umiltà è l'arma più grande: con una voce dolce e un sorriso puoi conquistare il mondo."
+      ],
+      "contenuto_esteso_markdown": "### Il Desiderio e l'Appartenenza\nAnalisi del movimento 3HO e dell'adempimento del dovere verso la comunità."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Kriya",
+      "nome": "Trataka Kriya con il Partner",
+      "durata_consigliata": "5-11 minuti",
+      "istruzioni_sintetiche": "Fissare gli occhi del partner senza battere le palpebre, applicando Maha Bandh sull'espirazione e proiettando amore."
+    }
+  },
+  {
+    "id": "lot-19691021-01",
+    "codice_originale": "019",
+    "titolo": {
+      "italiano": "L'Amore come Dovere e la Pulizia del Tempio",
+      "originale": "L'Amore e il Dovere"
+    },
+    "data_lezione": "1969-10-21",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Ridefinizione dell'amore come dovere e responsabilità, idroterapia per i pori e meditazione sull'affermazione 'Io Sono'.",
+      "punti_chiave": [
+        "L'amore è la forma personificata del dovere verso l'altro.",
+        "Massaggio quotidiano delle orecchie e routine per stimolare i 22 metri di intestino.",
+        "Il nervo della mente (6 pollici) responsabile della stabilizzazione contro il declino mentale.",
+        "Il potere creativo della donna (Aad Shakti) capace di generare un santo o un eroe."
+      ],
+      "citazioni_celebri": [
+        "Chi non è responsabile verso i doveri mondani non può esserlo verso i doveri divini."
+      ],
+      "contenuto_esteso_markdown": "### L'Autorealizzazione Interiore\nEsempio del Tempio d'Oro di Amritsar come rifugio universale e protezione senza giudizio."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Kriya",
+      "nome": "Sollevamento della Piattaforma del Corpo e 'Io Sono'",
+      "durata_consigliata": "5 minuti",
+      "istruzioni_sintetiche": "Sollevamento del corpo sulle mani con gambe tese abbinato al trattenimento del respiro e meditazione su 'Io Sono'."
+    }
+  },
+  {
+    "id": "lot-19691027-01",
+    "codice_originale": "020",
+    "titolo": {
+      "italiano": "Yoga Tantrico, Rimedi Naturali e la Centralità del Respiro",
+      "originale": "Discorso sulla Responsabilità e il Respiro"
+    },
+    "data_lezione": "1969-10-27",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Protocollo per la sinusite e il mal di schiena, introduzione allo Yoga Tantrico e responsabilità etica del discepolo.",
+      "punti_chiave": [
+        "Rimedio per la sinusite con pepe nero, miele e sudorazione indotta.",
+        "Esercizi della Mucca, del Cobra e del Corvo per purificare la circolazione e stimolare la tiroide.",
+        "Ridurre la frequenza a 8 respiri al minuto per padroneggiare le emozioni.",
+        "Le azioni errate di uno studente riflettono sul maestro; dovere di essere pionieri spirituali."
+      ],
+      "citazioni_celebri": [
+        "L'aria è l'insegnante, l'aria è il Guru.",
+        "Attraverso la valle del dolore c'è un paradiso dove il corpo diventa il tempio di Dio."
+      ],
+      "contenuto_esteso_markdown": "### Pavan Guru\nLa storia dello scrittore di libri e il pericolo di trasmettere una conoscenza meramente teorica o distorta."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Kriya",
+      "nome": "Posizione del Corvo e Cobra Tantrico",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Movimento dinamico accovacciato nella Posizione del Corvo seguito da estensione in Posizione del Cobra."
+    }
+  },
+  {
+    "id": "lot-19691028-01",
+    "codice_originale": "021",
+    "titolo": {
+      "italiano": "Karma Yoga: Dio come Vibrazione e l'Azione Veritiera",
+      "originale": "Capitolo II, Karma Yoga"
+    },
+    "data_lezione": "1969-10-28",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Dio concepito come vibrazione, rifiuto della rinuncia e dell'ascetismo, e nobilizzazione del lavoro e del guadagno onesto.",
+      "punti_chiave": [
+        "Dio è una vibrazione presente nel respiro e nell'azione.",
+        "L'azione quotidiana deve provare la verità e la verità deve provare Dio.",
+        "Rifiuto della rinuncia alla famiglia: la vera sfida è essere spirituali rimanendo nel mondo.",
+        "L'uomo come causa strumentale diretto dal 'Padre Regista'."
+      ],
+      "citazioni_celebri": [
+        "Dio è una vibrazione. Se vivi secondo questo concetto, finirai per diventare un Dio.",
+        "La mia azione dovrebbe provare la mia verità, e la mia verità dovrebbe provare il mio Dio."
+      ],
+      "contenuto_esteso_markdown": "### Karma Yoga Pratico\nTecniche della Posizione della Rana (Frog Pose) e lingua arrotolata per assimilare il nettare della vita."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Kriya",
+      "nome": "Posizione della Rana (Frog Pose)",
+      "durata_consigliata": "26-54 ripetizioni",
+      "istruzioni_sintetiche": "Accovacciati sui talloni uniti, inspirare sollevando il bacino e stendendo le gambe guardando le ginocchia, espirare tornando giù."
+    }
+  },
+  {
+    "id": "lot-19691225-01",
+    "codice_originale": "022",
+    "titolo": {
+      "italiano": "Una nazione spirituale è nata: La preparazione all'Era dell'Acquario",
+      "originale": "Discorso di Natale 1969"
+    },
+    "data_lezione": "1969-12-25",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Discorso storico sulla transizione verso l'Era dell'Acquario, l'integrità assoluta della condotta e la sfida dei 40 giorni di Verità.",
+      "punti_chiave": [
+        "Transizione epocale tra il 1970 e il 1976: lo spirito governerà sull'intelletto.",
+        "Una singola goccia di acido rovina cento galloni di latte: necessità di un'onestà senza compromessi.",
+        "Il maestro come fiammifero che accende la candela del discepolo.",
+        "La sfida di vivere e parlare nella verità per 40 giorni consecutivi per riscrivere il proprio destino."
+      ],
+      "citazioni_celebri": [
+        "La verità non può essere venduta, non può essere comprata, non appartiene a nessuno.",
+        "Vivete praticamente, vivete nella verità. Vivete sull'orlo estremo della verità."
+      ],
+      "contenuto_esteso_markdown": "### La Nascita della Nazione Spirituale\nInvocazione per l'unione dei cercatori di verità e pratica del Beej Mantra Sat Nam per arrestare la ruota del Karma."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Meditazione",
+      "nome": "Sfida dei 40 Giorni di Sat Nam",
+      "durata_consigliata": "31 minuti",
+      "istruzioni_sintetiche": "Meditazione del mattino presto con recitazione profonda del Beej Mantra Sat Nam per purificare l'aura."
+    }
+  }
 ]
