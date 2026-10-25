@@ -1,18 +1,796 @@
 [
   {
-    "id": "lot-19790918-01",
-    "codice_originale": "NM0089",
-    "titolo": { "italiano": "La Mente Neutrale e la Capacità di Decidere", "originale": "The Neutral Mind and Decision Making" },
-    "data_lezione": "1979-09-18",
-    "luogo_originale": "Los Angeles, CA",
-    "url_originale": "https://www.libraryofteachings.com/lecture.xpage?id=NM0089",
-    "podcast": { "audio_url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3", "durata_formattata": "14:05" },
-    "riassunto": {
-      "sintesi_breve": "Spiegazione di come la Mente Neutrale agisca da giudice imparziale.",
-      "punti_chiave": ["La mente negativa protegge dai rischi.", "La mente neutrale integra entrambe."],
-      "citazioni_celebri": ["Quando la mente neutrale ascolta, la decisione che ne scaturisce è priva di karma."],
-      "contenuto_esteso_markdown": "Trascrizione approfondita della lezione del 1979."
+    "id": "lot-19700101-01",
+    "codice_originale": "023",
+    "titolo": {
+      "italiano": "La Natura del Campo Elettromagnetico Umano",
+      "originale": "The Nature of the Human Electromagnetic Field"
     },
-    "pratica": { "presente": true, "tipo": "Meditazione", "nome": "Meditazione per la Mente Neutrale", "durata_consigliata": "11 minuti", "istruzioni_sintetiche": "Mani al centro del petto, sguardo al naso." }
-  }
-]
+    "data_lezione": "1970-01-01",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Analisi delle quattro forze fondamentali dell'essere umano (Prana, elettricità corporea, campo magnetico e aura) e delle pratiche per mantenerne l'integrità.",
+      "punti_chiave": [
+        "Il Prana genera la carica elettrica, la quale crea il campo magnetico e la forza circonvicina (aura).",
+        "Ridurre la frequenza respiratoria a otto respiri al minuto dona calma e grazia.",
+        "L'orientamento del sonno Est-Ovest preserva l'iniziativa e la tensione del campo magnetico individuale.",
+        "I capelli agiscono come antenne protettive contro l'elettricità universale ad alto voltaggio."
+      ],
+      "citazioni_celebri": [
+        "Ovunque posi il piede, lì sarà la verità."
+      ],
+      "contenuto_esteso_markdown": "### Il Campo Elettromagnetico Umano\nStudio dettagliato del sistema energetico umano, dell'importanza dell'aura protettiva e del raggiungimento dello stato di Devata (uomo trasparente)."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Meditazione",
+      "nome": "Meditazione Sat Nam e Controllo del Respiro",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Inspirare mentalmente 'Sat' ed espirare 'Nam' riducendo progressivamente il ritmo respiratorio."
+    }
+  },
+  {
+    "id": "lot-19700101-02",
+    "codice_originale": "024",
+    "titolo": {
+      "italiano": "Cosmologia, Religione Universale e Disciplina Alimentare",
+      "originale": "Cosmology and Universal Religion"
+    },
+    "data_lezione": "1970-01-01",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Critica delle religioni dogmatiche, analisi della relazione tra Sole e Luna (Pursha e Prakriti) e importanza della dieta e della flessibilità.",
+      "punti_chiave": [
+        "La religione è solo un veicolo; l'obiettivo è la realizzazione della verità universale (Sat Nam).",
+        "L'ego negativo agisce come un'eclissi che oscura la saggezza dell'anima.",
+        "La flessibilità fisica e mentale è essenziale per sopravvivere alle tempeste della vita.",
+        "La curcuma e il pepe nero sono indicati come potenti purificatori naturali."
+      ],
+      "citazioni_celebri": [
+        "La nostra saggezza, la nostra consapevolezza è bloccata dalle nuvole dell'ego e la luna della mente la oscura."
+      ],
+      "contenuto_esteso_markdown": "### Oltre i dogmi religiosi\nUn'esortazione a superare le etichette esterne per abbracciare la scienza pratica dello Yoga e la disciplina della purezza interiore."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Kriya",
+      "nome": "Surya Kriya",
+      "durata_consigliata": "5 minuti",
+      "istruzioni_sintetiche": "Seduti sul tallone destro con la gamba sinistra indietro, piegarsi in avanti applicando pressione per generare calore solare."
+    }
+  },
+  {
+    "id": "lot-19700112-01",
+    "codice_originale": "025",
+    "titolo": {
+      "italiano": "Influenza Lunare e Canalizzazione delle Emozioni",
+      "originale": "Moon Day and Emotional Channeling"
+    },
+    "data_lezione": "1970-01-12",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "L'impatto delle vibrazioni lunari sul corpo composto d'acqua e l'uso dell'Ashtang Mantra per elevare la coscienza.",
+      "punti_chiave": [
+        "Il lunedì richiede una canalizzazione consapevole delle emozioni per evitare squilibri mentali.",
+        "Le emozioni come rabbia e avidità non vanno eliminate, ma canalizzate verso scopi superiori.",
+        "Il corpo è il tempio di Dio e va mantenuto forte attraverso l'esercizio e la disciplina mattutina.",
+        "Praticare la gentilezza universale garantisce un ritorno di benedizioni decuplicato."
+      ],
+      "citazioni_celebri": [
+        "La verità è non causare una causa che avrà un effetto negativo."
+      ],
+      "contenuto_esteso_markdown": "### La Gestione dei Cicli Lunari\nApprofondimento sulla chimica del corpo umano in relazione ai cicli planetari e all'importanza del servizio disinteressato."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Kriya",
+      "nome": "Posizione della Rana e Asana di Purificazione",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Esecuzione della frog pose abbinata a respiri di fuoco per stimolare le secrezioni ghiandolari."
+    }
+  },
+  {
+    "id": "lot-19700113-01",
+    "codice_originale": "026",
+    "titolo": {
+      "italiano": "Fisiologia Spirituale e Legge di Causa ed Effetto",
+      "originale": "Spiritual Physiology and Karma"
+    },
+    "data_lezione": "1970-01-13",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Studio del ciclo cellulare, del concetto di 'olio umano' derivato dalla digestione e delle tecniche di respirazione alternata per la salute.",
+      "punti_chiave": [
+        "Le cellule si rinnovano ogni 72 ore; nutrire il corpo con energia pranica previene il cedimento degli organi.",
+        "Ottanta bocconi di cibo producono una goccia di sangue (olio umano); canali puliti permettono di operare con grande potenza.",
+        "Il karma si manifesta spesso in cicli di sette anni e mezzo.",
+        "La devozione profonda è necessaria per comprendere i testi e la realtà spirituale."
+      ],
+      "citazioni_celebri": [
+        "La pratica rende l'essere umano perfetto."
+      ],
+      "contenuto_esteso_markdown": "### Il Valore dell'Energia Vitale\nAnalisi del corpo come macchina energetica complessa e dell'importanza di investire positivamente nel presente."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Pranayama",
+      "nome": "Respirazione a Narici Alternate e Blocco del Collo",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Inalare a sinistra, espirare a destra con chiusura del collo (Jalandhara Bandha) per trattenere il prana."
+    }
+  },
+  {
+    "id": "lot-19700114-01",
+    "codice_originale": "027",
+    "titolo": {
+      "italiano": "La Teoria del Vuoto e la Preparazione all'Era dell'Acquario",
+      "originale": "Filling Up The Vacuum"
+    },
+    "data_lezione": "1970-01-14",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "L'innalzamento della coscienza crea un vuoto che viene colmato dalla maya; istruzioni sul test dei 40 giorni di positività.",
+      "punti_chiave": [
+        "La ricchezza e il comfort materiale devono fungere da supporto, non da annegamento spirituale.",
+        "Periodo critico dal 5 gennaio 1970 al 21 giugno 1978 per la stabilità mentale collettiva.",
+        "Praticare 40 giorni di assenza totale di condanna verso gli altri apre le porte del regno divino.",
+        "Il Guru agisce come un tagliatore di diamanti per eliminare l'ego."
+      ],
+      "citazioni_celebri": [
+        "Se riuscite a capire questa piccola cosa, capirete l'intera scienza spirituale."
+      ],
+      "contenuto_esteso_markdown": "### La Teoria del Vuoto\nRiflessioni sulla gestione del successo materiale e sulla trasformazione da semplici discepoli a insegnanti guida."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Kriya",
+      "nome": "Esercizio Diagonale e Venus Lock",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Intrecciare le dita con i pollici che premono la paratiroide, braccio sinistro parallelo e circolazione dell'energia."
+    }
+  },
+  {
+    "id": "lot-19700209-01",
+    "codice_originale": "028",
+    "titolo": {
+      "italiano": "Il Tempio d'Oro, la Santità e la Ghiandola Pituitaria",
+      "originale": "The Golden Temple and Pituitary Activation"
+    },
+    "data_lezione": "1970-02-09",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "La straordinaria purezza del Tempio d'Oro di Amritsar, le guarigioni miracolose attraverso le sue acque e la tecnica per stimolare la pituitaria.",
+      "punti_chiave": [
+        "Il Tempio d'Oro è mantenuto immacolato esclusivamente attraverso il servizio volontario.",
+        "L'ego spirituale è definito come l'unica malattia incurabile della terra.",
+        "La preghiera e la sintonizzazione con lo spirito universale generano guarigioni reali.",
+        "Lo sguardo fisso sui pollici stimola il nervo ottico e la ghiandola pituitaria."
+      ],
+      "citazioni_celebri": [
+        "Non so come compiere miracoli. So solo come pregare."
+      ],
+      "contenuto_esteso_markdown": "### La Purezza del Tempio d'Oro\nStudio sulla devozione, sul superamento dell'ego spirituale e sulle posture ad alta precisione per l'attivazione della percezione extrasensoriale."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Meditazione",
+      "nome": "Meditazione con Posizione dei Pollici sullo Sterno",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Mani al centro del torace con pollici sullo sterno e dita a 90 gradi, occhi fissi sui pollici."
+    }
+  },
+  {
+    "id": "lot-19700224-01",
+    "codice_originale": "029",
+    "titolo": {
+      "italiano": "Proiezione Interiore, Sat Dharna e Trascendenza della Morte",
+      "originale": "Inner Projection and Sat Dharna"
+    },
+    "data_lezione": "1970-02-24",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Lo sviluppo della proiezione interiore per espandere il sé, la pratica del cobra per la giovinezza e la comprensione della morte come cambio d'abito.",
+      "punti_chiave": [
+        "L'espansione del sé in un grande essere protegge l'individuo dalla confusione e dalla miseria.",
+        "La morte è semplicemente il cambio di una camicia sporca per l'anima.",
+        "La disciplina del mattino (Nithnem) ricarica le linee energetiche tra l'uomo e il Creatore.",
+        "Lussuria e cupidigia distruggono la coscienza pura."
+      ],
+      "citazioni_celebri": [
+        "La vita è un viaggio e il corpo è un tempio temporaneo."
+      ],
+      "contenuto_esteso_markdown": "### La Via della Verità\nIstruzioni dettagliate per l'acquisizione di potere interiore attraverso posture yogiche rigorose e purezza morale."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Kriya",
+      "nome": "Posizione del Cobra con Sollevamento Gambe",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "In posizione del cobra, mantenere la colonna estesa, applicare il Mool Bandh e sollevare alternativamente le gambe."
+    }
+  },
+  {
+    "id": "lot-19700224-02",
+    "codice_originale": "030",
+    "titolo": {
+      "italiano": "Amore, Maya e Gestione del Karma",
+      "originale": "Love, Maya and Karmic Management"
+    },
+    "data_lezione": "1970-02-24",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "L'amore inteso come dare incondizionato, il rapporto tra Dio (Governatore) e Maya (Poliziotto), e l'importanza di non interferire nel karma altrui.",
+      "punti_chiave": [
+        "L'amore vero è dare senza aspettarsi nulla in cambio.",
+        "Chi comprende l'autorità suprema di Dio non teme le fluttuazioni dell'illusione materiale.",
+        "Il pentimento e la costanza per 40 o 70 giorni cancellano il passato karmico.",
+        "Il corpo è il tempio sacro alimentato dal respiro divino."
+      ],
+      "citazioni_celebri": [
+        "L'amore è un'azione pura e disinteressata."
+      ],
+      "contenuto_esteso_markdown": "### La Filosofia dell'Amore Incondizionato\nRiflessioni etiche e pratiche sulla gestione dei consigli non richiesti e sul rispetto dei limiti personali."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Meditazione",
+      "nome": "Meditazione 'God and Me, Me and God Are One'",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Concentrazione sul terzo occhio con recitazione del mantra e applicazione del root lock."
+    }
+  },
+  {
+    "id": "lot-19700315-01",
+    "codice_originale": "031",
+    "titolo": {
+      "italiano": "Disciplina nell'Assenza del Maestro e Giustizia Universale",
+      "originale": "Discipline in the Teacher's Absence"
+    },
+    "data_lezione": "1970-03-15",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Preparazione alla partenza del Maestro per un tour nazionale, test della sincerità degli allievi ed esempi di giustizia dal regno di Maharaja Ranjit Singh.",
+      "punti_chiave": [
+        "L'assenza del Maestro serve a verificare se gli studenti sanno far risplendersi autonomamente.",
+        "Politica di tolleranza zero verso l'ego all'interno dell'ashram.",
+        "Il maestro funge da specchio che riflette il livello di coscienza dello studente.",
+        "Rispondere alla provocazione con misericordia e grandezza d'animo."
+      ],
+      "citazioni_celebri": [
+        "Se un albero dà frutti quando colpito da una pietra, un uomo di Dio deve dare ancora di più."
+      ],
+      "contenuto_esteso_markdown": "### L'Autonomia Spirituale\nAnalisi della struttura degli ashram, del rispetto per la figura materna e del valore della comunicazione silenziosa del cuore."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Kriya",
+      "nome": "Janusirshasan e Swing dei Fianchi",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Pompaggio addominale in flessione e oscillazione ritmica dei fianchi per purificare il fegato."
+    }
+  },
+  {
+    "id": "lot-19700311-01",
+    "codice_originale": "032",
+    "titolo": {
+      "italiano": "La Verità Auto-Esistente e la Formazione dei Nuovi Insegnanti",
+      "originale": "The Self-Sustaining Truth"
+    },
+    "data_lezione": "1970-03-11",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "La verità come realtà indipendente, l'urgenza di formare insegnanti disposti al sacrificio e il cambiamento culturale nei campus universitari.",
+      "punti_chiave": [
+        "La verità non è relativa; l'individuo deve solo coordinarsi con essa eliminando l'ego.",
+        "C'è una forte richiesta di nuovi pionieri per guidare l'Era dell'Acquario.",
+        "I giovani rifiutano il formalismo obsoleto in cerca di libertà e consapevolezza autentica.",
+        "La nutrizione artificiale moderna danneggia il sistema ghiandolare."
+      ],
+      "citazioni_celebri": [
+        "La consapevolezza porta alla divinità e ogni volta che sei consapevole, sei un sacrificio alla verità."
+      ],
+      "contenuto_esteso_markdown": "### La Scienza della Verità\nRiflessioni sociologiche sull'evoluzione giovanile e sull'importanza della respirazione alternata per la connessione divina."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Kriya",
+      "nome": "Yoga Mudra e Respirazione Alternata",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Mani dietro la schiena con dita intrecciate, piegandosi in avanti per ossigenare i centri cerebrali."
+    }
+  },
+  {
+    "id": "lot-19700529-01",
+    "codice_originale": "033",
+    "titolo": {
+      "italiano": "Espansione del Movimento e Shank Kriya",
+      "originale": "Expansion and Shank Kriya"
+    },
+    "data_lezione": "1970-05-29",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Riconoscimento istituzionale del movimento, supporto politico in California e introduzione della seconda lezione di Laya Yoga (Shank Kriya).",
+      "punti_chiave": [
+        "Superamento dello scetticismo medico grazie agli effetti trasformativi immediati dello yoga.",
+        "Preparazione per il grande pellegrinaggio (yatra) verso il Nuovo Messico per il solstizio d'estate.",
+        "Fedeltà assoluta agli insegnamenti originali delle scritture senza alterazioni personali.",
+        "Shank Kriya per la purificazione e il controllo della corrente del prana."
+      ],
+      "citazioni_celebri": [
+        "È la pratica che ti rende perfetto e non esiste una cosa come il peccato."
+      ],
+      "contenuto_esteso_markdown": "### Laya Yoga e Shank Kriya\nResoconto della crescita esponenziale del movimento e dei principi etici per la convivenza universale."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Kriya",
+      "nome": "Shank Kriya con Shank Mudra",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Mani in Shank Mudra, colonna dritta, respirazione profonda e chanting di Ek Ong Kar."
+    }
+  },
+  {
+    "id": "lot-19700601-01",
+    "codice_originale": "034",
+    "titolo": {
+      "italiano": "La Scienza Segreta della Kundalini Yoga",
+      "originale": "The Secret Science of Kundalini Yoga"
+    },
+    "data_lezione": "1970-06-01",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Esplorazione degli otto centri di coscienza, della tecnologia dell'Ashtang Mantra e della differenza tra amore autentico e lussuria.",
+      "punti_chiave": [
+        "Gli otto centri includono i sette chakra più l'aura protettiva.",
+        "Il respiro è l'unico legame tangibile tra l'uomo e il Creatore.",
+        "L'amore autentico è un atto di donazione disinteressata che crea un'aura luminosa.",
+        "Nell'Era dell'Acquario questa scienza diventa accessibile a tutti per la felicità collettiva."
+      ],
+      "citazioni_celebri": [
+        "L'amore autentico è un atto di dare senza possesso."
+      ],
+      "contenuto_esteso_markdown": "### Mappatura Energetica e Mantra\nAnalisi dettagliata della struttura energetica umana e dell'efficacia vibratoria dell'Ashtang Mantra."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Meditazione",
+      "nome": "Ashtang Mantra Meditation",
+      "durata_consigliata": "11-31 minuti",
+      "istruzioni_sintetiche": "Recitazione ritmica di Ek Ong Kar Sat Nam Siri Wah Guru con attivazione del root lock."
+    }
+  },
+  {
+    "id": "lot-19700601-02",
+    "codice_originale": "035",
+    "titolo": {
+      "italiano": "Preparativi per il Solstizio d'Estate e Rispetto della Terra Sacra",
+      "originale": "Summer Solstice Preparations"
+    },
+    "data_lezione": "1970-06-01",
+    "luogo_originale": "New Mexico",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Linee guida per il raduno del solstizio nel New Mexico, rispetto per le popolazioni indigene e protezione ecologica del territorio.",
+      "punti_chiave": [
+        "Il territorio dei 'quattro angoli' è un rifugio sacro designato per la rigenerazione futura del mondo.",
+        "Appoggio formale del governatore locale e garanzia di autonomia rispetto alle interferenze federali.",
+        "Regole severe per la protezione dell'acqua del torrente e dei fuochi autorizzati.",
+        "L'uomo privo di umiltà e grazia resta un animale in un corpo umano."
+      ],
+      "citazioni_celebri": [
+        "Questo è uno dei luoghi che sono stati messi da parte affinché un nuovo popolo possa ricreare il mondo."
+      ],
+      "contenuto_esteso_markdown": "### Il Solstizio nel New Mexico\nIstruzioni pratiche e morali per i partecipanti al raduno comunitario nella terra dei nativi americani."
+    },
+    "pratica": {
+      "presente": false,
+      "tipo": "Meditazione",
+      "nome": "Sintonia di Gruppo",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Apertura dello spazio sacro con Adi Mantra e sintonizzazione collettiva."
+    }
+  },
+  {
+    "id": "lot-19700603-01",
+    "codice_originale": "036",
+    "titolo": {
+      "italiano": "Laya Yoga, il Ruolo del Guru e la Sukh Sadhana",
+      "originale": "Laya Yoga and the Role of the Guru"
+    },
+    "data_lezione": "1970-06-03",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "La funzione protettiva e correttiva del Guru, la pratica della Sukh Sadhana e la rotazione dei chakra attraverso il Laya Yoga.",
+      "punti_chiave": [
+        "Il Guru agisce come un 'martello silenziato' per distruggere l'ego dello studente.",
+        "Concentrarsi sul Hridya Chakra dona la maestria sull'aria e la percezione degli elementi sottili.",
+        "La Sukh Sadhana induce uno stato di vertigine yogica e profonda leggerezza.",
+        "Distinzione etica tra azioni divine (per il bene collettivo) e demoniache (puramente egoistiche)."
+      ],
+      "citazioni_celebri": [
+        "Un vero Guru lavora per rendere lo studente un Guru a sua volta."
+      ],
+      "contenuto_esteso_markdown": "### La Maestria del Laya Yoga\nApprofondimento sulla devozione orientale, sulla protezione spirituale e sulle tecniche avanzate di respirazione."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Kriya",
+      "nome": "Sukh Sadhana e Rotazione del Laya Yoga",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Inspirazione profonda con rientro delle narici (Sukh Sadhana) e chanting con rotazione lungo la spina dorsale."
+    }
+  },
+  {
+    "id": "lot-19700620-01",
+    "codice_originale": "037",
+    "titolo": {
+      "italiano": "Resilienza al Solstizio e Fondazione di una Nuova Nazione",
+      "originale": "Solstice Resilience and New Nation Building"
+    },
+    "data_lezione": "1970-06-20",
+    "luogo_originale": "New Mexico",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Gestione delle tensioni e delle incursioni esterne durante il solstizio, invito alla non-reazione e affermazione dell'identità spirituale collettiva.",
+      "punti_chiave": [
+        "Rispondere alle molestie esterne con la pace, la pazienza e l'assoluta non-reazione.",
+        "Il gruppo rappresenta il nucleo fondante di una nuova nazione spirituale.",
+        "Mantra centrale: 'Dio ed io, io e Dio siamo uno'.",
+        "Regole logistiche precise per la chiusura del campo e la cerimonia nuziale."
+      ],
+      "citazioni_celebri": [
+        "Accetta il peggio e spera nel meglio; questo è il modo migliore di vivere."
+      ],
+      "contenuto_esteso_markdown": "### Il Test della Fede\nIstruzioni operative e spirituali per superare le pressioni esterne e consolidare il campo energetico del gruppo."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Kriya",
+      "nome": "Sat Mudra con Respiro di Fuoco e Camel Ride",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Braccia tese in alto con dita intrecciate, respiro di fuoco e movimento della colonna (camel ride) con il Beej Mantra."
+    }
+  },
+  {
+    "id": "lot-19700621-01",
+    "codice_originale": "038",
+    "titolo": {
+      "italiano": "Matrimonio Cosmico e la Rinascita della Donna nell'Era dell'Acquario",
+      "originale": "Cosmic Marriage and Women's Grace"
+    },
+    "data_lezione": "1970-06-21",
+    "luogo_originale": "New Mexico",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Celebrazione di un matrimonio collettivo al solstizio, ridefinizione del matrimonio come unione spirituale e rispetto sacro per la donna.",
+      "punti_chiave": [
+        "Il matrimonio non è basato sulla lussuria ma sull'unione di Prana e Apana per generare anime coscienti.",
+        "La donna è riconosciuta come donatrice dell'anima (Giver of Soul).",
+        "L'uomo ha il dovere sacro di proteggere la grazia e la dignità della donna.",
+        "Lettura delle quattro cerchie nuziali (inni) che tracciano il percorso spirituale della coppia."
+      ],
+      "citazioni_celebri": [
+        "Il matrimonio non è un viaggio di lussuria; dovete dare grazia alla Madre Terra creativa."
+      ],
+      "contenuto_esteso_markdown": "### Il Matrimonio dell'Era dell'Acquario\nLinee guida etiche e spirituali per le unioni familiari, l'umanesimo universale e la purezza della discendenza."
+    },
+    "pratica": {
+      "presente": false,
+      "tipo": "Meditazione",
+      "nome": "Cerimonia delle Quattro Cerchie Nuziali",
+      "durata_consigliata": "N/D",
+      "istruzioni_sintetiche": "Cirumambulazione attorno al fuoco sacro con recitazione degli inni nuziali."
+    }
+  },
+  {
+    "id": "lot-19700701-01",
+    "codice_originale": "039",
+    "titolo": {
+      "italiano": "Realizzazione della Divinità Interiore e Bhajan Mudra",
+      "originale": "Realization of Inner Divinity and Bhajan Mudra"
+    },
+    "data_lezione": "1970-07-01",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Dio come presenza nel cuore, controllo dei cinque sensi per annullare la dualità e introduzione della Bhajan Mudra.",
+      "punti_chiave": [
+        "Quando il sé controlla i sensi, la distinzione tra uomo e Dio svanisce.",
+        "La vita terrena ha valore solo se finalizzata alla liberazione e al servizio dell'umanità.",
+        "Il corpo è un veicolo prezioso che richiede pulizia e salute per completare il viaggio.",
+        "Bhajan Mudra per canalizzare il prana nel triangolo inferiore e stimolare la Kundalini."
+      ],
+      "citazioni_celebri": [
+        "La verità ha il potere di rendere immortale un essere mortale."
+      ],
+      "contenuto_esteso_markdown": "### La Bhajan Mudra e il Superamento della Dualità\nIstruzioni avanzate per la meditazione solitaria e l'attivazione dell'occhio della saggezza (Gyan Netra)."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Kriya",
+      "nome": "Bhajan Mudra",
+      "durata_consigliata": "11-31 minuti",
+      "istruzioni_sintetiche": "Dita intrecciate con pollici sovrapposti, colonna dritta, neck lock e respiro focalizzato nel triangolo inferiore."
+    }
+  },
+  {
+    "id": "lot-19700728-01",
+    "codice_originale": "040",
+    "titolo": {
+      "italiano": "Salute, Felicità e la Padronanza del Corpo",
+      "originale": "Health, Happiness and Mastery over the Body"
+    },
+    "data_lezione": "1970-07-28",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Interconnessione tra corpo sano, mente felice e anima santa; uso del dolore fisico controllato per spezzare le preoccupazioni mentali.",
+      "punti_chiave": [
+        "La felicità deriva dalla padronanza di ciò che si possiede, non dall'accumulo materiale.",
+        "Il corpo è il veicolo e la salute fisica è il prerequisito indispensabile per la santità.",
+        "Il dolore fisico nello yoga costringe la mente a focalizzarsi, curando l'instabilità psicologica.",
+        "La legge del karma garantisce il ritorno di ogni azione entro sette anni e mezzo."
+      ],
+      "citazioni_celebri": [
+        "Se sei sano e respiri, c'è una possibilità di essere felice; e se sei felice, c'è una possibilità di essere santo."
+      ],
+      "contenuto_esteso_markdown": "### La Trinità di Corpo, Mente e Anima\nAnalisi dettagliata delle posture per purificare il sangue e rompere le irregolarità del sistema nervoso."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Kriya",
+      "nome": "Shakti Chaalani Mudra e Posizione della Piattaforma",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Colpire i glutei con i talloni da sdraiati o mantenere la piattaforma dritta per stimolare i nervi."
+    }
+  },
+  {
+    "id": "lot-19700807-01",
+    "codice_originale": "041",
+    "titolo": {
+      "italiano": "Il Visibile e l'Invisibile nel Laya Yoga",
+      "originale": "The Visible and the Invisible in Laya Yoga"
+    },
+    "data_lezione": "1970-08-07",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "La sproporzione tra il 90% invisibile dell'essere (reale ed eterno) e il 10% visibile (illusorio); il rispetto per la donna come chiave di pace.",
+      "punti_chiave": [
+        "L'umanità commette l'errore di dedicare il 90% dell'attenzione al visibile transitorio.",
+        "Il centro del cuore permette di superare il ciclo del tempo e del karma.",
+        "Il rispetto incondizionato per la donna è un prerequisito assoluto per la pace sulla terra.",
+        "Pratica del Laya Yoga per connettersi stabilmente all'Infinito."
+      ],
+      "citazioni_celebri": [
+        "Quando vi relazionate all'invisibile, il visibile vi obbedisce."
+      ],
+      "contenuto_esteso_markdown": "### La Realtà dell'Invisibile\nLezione fondamentale sui livelli di coscienza, sul superamento dell'ego e sull'importanza dell'Ashtang Mantra."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Kriya",
+      "nome": "Laya Yoga con Ashtang Mantra",
+      "durata_consigliata": "31 minuti",
+      "istruzioni_sintetiche": "Colonna dritta, chiusura della radice e chanting ritmico di Ek Ong Kar Sat Nam Siri Wahe Guru."
+    }
+  },
+  {
+    "id": "lot-19700823-01",
+    "codice_originale": "042",
+    "titolo": {
+      "italiano": "Scienza e Pratica del Kriya e Laya Yoga",
+      "originale": "Science and Practice of Kriya and Laya Yoga"
+    },
+    "data_lezione": "1970-08-23",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Lo yoga come processo scientifico e non dogmatico, pompaggio addominale per l'eliminazione dell'apana e responsabilità dei pionieri.",
+      "punti_chiave": [
+        "La preghiera senza sintonizzazione della coscienza è come una macchina da scrivere senza inchiostro.",
+        "Il pompaggio addominale a polmoni vuoti elimina i residui mentali e l'aria viziata.",
+        "Dura condanna della mercificazione della donna e della codardia emotiva maschile.",
+        "Preparazione per la celebrazione del compleanno di Baba Siri Chand."
+      ],
+      "citazioni_celebri": [
+        "Non voglio creare fanatici... Voglio che impariate scientificamente."
+      ],
+      "contenuto_esteso_markdown": "### La Tecnologia della Sintonizzazione\nIstruzioni pratiche per l'uso del Naada e dei mantra protettivi come Akal per rimuovere la paura."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Kriya",
+      "nome": "Pompaggio Addominale e Mantra Akal",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Espirazione totale, apnea a vuoto, pompaggio veloce dell'addome e chanting di Akal."
+    }
+  },
+  {
+    "id": "lot-19701108-01",
+    "codice_originale": "043",
+    "titolo": {
+      "italiano": "Primo Kirtan a Los Angeles e Autonomia della Comunità",
+      "originale": "First Kirtan in Los Angeles"
+    },
+    "data_lezione": "1970-11-08",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Transizione verso l'autonomia collettiva della comunità, lancio del GGMWA e importanza dell'ecologia interiore.",
+      "punti_chiave": [
+        "Il Maestro passa il testimone: la comunità possiede ora il know-how tecnico per autogestirsi.",
+        "Lancio ufficiale del Grace of God Movement of Women of America (GGMWA).",
+        "L'ecologia interiore (pulizia psichica) ha la priorità assoluta sull'ecologia esteriore.",
+        "Introduzione alla Meditazione di Shiva per allontanare la morte e la paura."
+      ],
+      "citazioni_celebri": [
+        "I folli vivono nella paura e l'uomo saggio vive nella forza."
+      ],
+      "contenuto_esteso_markdown": "### Il Primo Kirtan e l'Unità della Famiglia Spirituale\nRiflessioni sulla vita naturale, sull'agricoltura organica e sull'importanza di diventare il proprio Guru."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Kirtan",
+      "nome": "Kirtan Domenicale e Meditazione di Shiva",
+      "durata_consigliata": "31 minuti",
+      "istruzioni_sintetiche": "Canto devozionale collettivo (Kirtan) con mani e corpo, seguito da meditazione sul terzo occhio."
+    }
+  },
+  {
+    "id": "lot-19701205-01",
+    "codice_originale": "044",
+    "titolo": {
+      "italiano": "La Legge della Crescita e la Meditazione della Luce",
+      "originale": "The Law of Growth and Light Meditation"
+    },
+    "data_lezione": "1970-12-05",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "L'istinto di conoscenza come forza vitale, la distinzione tra l'attaccamento alla forma del Guru e alla sua saggezza, e la Meditazione della Luce.",
+      "punti_chiave": [
+        "Conoscere l'origine di un percorso garantisce l'assenza di una fine.",
+        "Il ricercatore deve assimilare la saggezza (la parola) e non dipendere dalla personalità fisica.",
+        "La vera rinuncia è uno stato mentale di dedizione totale.",
+        "Uso del respiro a fischio e visualizzazione di luce bianca cristallina."
+      ],
+      "citazioni_celebri": [
+        "La saggezza è come l'acqua corrente: deve fluire e essere condivisa per non ristagnare."
+      ],
+      "contenuto_esteso_markdown": "### La Legge della Vita\nAnalisi approfondita della crescita spirituale, della contentezza e della connessione all'energia infinita attraverso il suono Ra."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Meditazione",
+      "nome": "Meditazione della Legge della Vita (Shuni Mudra)",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Shuni mudra, respiro a fischio, visualizzazione di raggi di luce bianca e chanting del suono 'Ra'."
+    }
+  },
+  {
+    "id": "lot-19701210-01",
+    "codice_originale": "045",
+    "titolo": {
+      "italiano": "Trascendenza, Legge del Karma e Quiete dei Nervi",
+      "originale": "Transcendence and Karmic Balance"
+    },
+    "data_lezione": "1970-12-10",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Passaggio dalla pesantezza alla leggerezza, classificazione delle tipologie umane di fronte alla religione, e importanza dell'immobilità totale.",
+      "punti_chiave": [
+        "L'inizio, la fine e il respiro sono universali e unici per tutta l'umanità.",
+        "Bisogna essere prima uomini sani e felici, poi aspirare alla santità.",
+        "L'universo è un gioco di scacchi bilanciato tra forze oscure e luce bianca.",
+        "Cinque minuti di profonda immobilità dei nervi valgono più di ore di pratica superficiale."
+      ],
+      "citazioni_celebri": [
+        "Siate belli, siate affascinanti, siate splendenti; Lui vi troverà."
+      ],
