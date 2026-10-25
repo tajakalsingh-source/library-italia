@@ -1,18 +1,275 @@
 [
   {
-    "id": "lot-19790918-01",
-    "codice_originale": "NM0089",
-    "titolo": { "italiano": "La Mente Neutrale e la Capacità di Decidere", "originale": "The Neutral Mind and Decision Making" },
-    "data_lezione": "1979-09-18",
-    "luogo_originale": "Los Angeles, CA",
-    "url_originale": "https://www.libraryofteachings.com/lecture.xpage?id=NM0089",
-    "podcast": { "audio_url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3", "durata_formattata": "14:05" },
-    "riassunto": {
-      "sintesi_breve": "Spiegazione di come la Mente Neutrale agisca da giudice imparziale.",
-      "punti_chiave": ["La mente negativa protegge dai rischi.", "La mente neutrale integra entrambe."],
-      "citazioni_celebri": ["Quando la mente neutrale ascolta, la decisione che ne scaturisce è priva di karma."],
-      "contenuto_esteso_markdown": "Trascrizione approfondita della lezione del 1979."
+    "id": "lot-19710121-01",
+    "codice_originale": "052",
+    "titolo": {
+      "italiano": "Il Potere del Maha Shakti Mantra e la Gestione dei Siddhi",
+      "originale": "The Power of Maha Shakti Mantra and Siddhis"
     },
-    "pratica": { "presente": true, "tipo": "Meditazione", "nome": "Meditazione per la Mente Neutrale", "durata_consigliata": "11 minuti", "istruzioni_sintetiche": "Mani al centro del petto, sguardo al naso." }
-  }
-]
+    "data_lezione": "1971-01-21",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Analisi dell'Ashtang Mantra e dei rischi spirituali derivanti dall'attaccamento ai poteri occulti (Siddhi), con istruzioni per la leadership nell'Era dell'Acquario.",
+      "punti_chiave": [
+        "Il Maha Shakti Mantra possiede otto vibrazioni che attirano poteri al servizio del praticante.",
+        "L'attaccamento ai Siddhi (come il Vayu Siddhi) intrappola il prana, trasformando l'aspirante in uno spirito legato alla terra o 'putana'.",
+        "I poteri devono essere considerati servitori da non legare mai a se stessi.",
+        "Preparazione dei praticanti come leader spirituali dotati di corpo spirituale per l'Era dell'Acquario."
+      ],
+      "citazioni_celebri": [
+        "I poteri occulti sono servitori; non bisogna mai legarli a sé."
+      ],
+      "contenuto_esteso_markdown": "### Il Maha Shakti Mantra e i Pericoli dei Siddhi\nStudio dettagliato sull'uso corretto della tecnologia del suono e sulla padronanza dell'ego per evitare deviazioni spirituali."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Meditazione",
+      "nome": "Chanting del Maha Shakti Mantra",
+      "durata_consigliata": "31 minuti",
+      "istruzioni_sintetiche": "Recitazione dell'Ashtang Mantra con attivazione della Trikuti inferiore e colonna dritta."
+    }
+  },
+  {
+    "id": "lot-19710328-01",
+    "codice_originale": "053",
+    "titolo": {
+      "italiano": "Il Matrimonio Spirituale e i Quattro Cerchi Nuziali",
+      "originale": "Spiritual Marriage and the Four Nuptial Circles"
+    },
+    "data_lezione": "1971-03-28",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Discorso cerimoniale per il matrimonio di Phil e Colleen: l'unione vista come 'un'anima in due corpi' e analisi delle quattro leggi nuziali.",
+      "punti_chiave": [
+        "Rifiuto assoluto del divorzio: l'impegno matrimoniale richiede di 'vincere o soccombere insieme'.",
+        "I quattro cerchi nuziali introducono le leggi della vita retta, dell'assenza di colpa, del distacco e della conoscenza divina.",
+        "Il matrimonio è il più grande Yoga (Grihastashram) per fondere due coscienze.",
+        "La musica dell'anima e l'onestà d'intento creano uno scudo protettivo contro le avversità."
+      ],
+      "citazioni_celebri": [
+        "Il matrimonio non è un contratto legale, ma un'unione spirituale indissolubile."
+      ],
+      "contenuto_esteso_markdown": "### La Via del Grihastashram\nPrincipi etici e spirituali per la gestione della coppia, l'educazione della prole e il superamento dell'ego coniugale."
+    },
+    "pratica": {
+      "presente": false,
+      "tipo": "Cerimonia",
+      "nome": "Cirumambulazione dei Quattro Cerchi Nuziali",
+      "durata_consigliata": "N/D",
+      "istruzioni_sintetiche": "Camminare attorno al fuoco sacro ascoltando gli inni del Siri Guru Granth Sahib."
+    }
+  },
+  {
+    "id": "lot-19710404-01",
+    "codice_originale": "054",
+    "titolo": {
+      "italiano": "Dio come Coscienza Superiore e la Tecnologia dello Yoga",
+      "originale": "God as Higher Consciousness and Yoga Technology"
+    },
+    "data_lezione": "1971-04-04",
+    "luogo_originale": "Santa Barbara, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Conferenza presso la Universal Presbyterian Church: ridefinizione di Dio come computer interno/coscienza e analisi delle diverse forme di yoga.",
+      "punti_chiave": [
+        "Dio è la coscienza superiore intrinseca all'uomo, non un'entità esterna da implorare.",
+        "Classificazione delle vie yogiche: Hatha, Bhakti, Karam, Gyan e Raja/Kundalini.",
+        "Il vero insegnante funge da 'cuscinetto' (buffer) per assorbire la negatività dello studente.",
+        "In preghiera l'uomo parla a Dio; in meditazione Dio parla all'uomo."
+      ],
+      "citazioni_celebri": [
+        "Quel Creatore che voi chiamate Dio, che io chiamo computer, è una cosa molto saggia, molto meglio di un uomo."
+      ],
+      "contenuto_esteso_markdown": "### La Scienza Interiore\nSuperamento dei dogmi religiosi e della ricerca esteriore attraverso la purificazione del subconscio e la pratica mantrica."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Meditazione",
+      "nome": "Meditazione 'God and Me, Me and God Are One'",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Mani unite al petto con pollici incrociati e vibrazione della colonna vertebrale attraverso il mantra."
+    }
+  },
+  {
+    "id": "lot-19710412-01",
+    "codice_originale": "055",
+    "titolo": {
+      "italiano": "Incanalamento delle Emozioni e Leadership Compassionevole",
+      "originale": "Channeling Emotions and Compassionate Leadership"
+    },
+    "data_lezione": "1971-04-12",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Lezione alla UCLA: rifiuto dell'ascetismo statico, necessità di direzionare i cinque elementi (rabbia, lussuria, avidità) e principi di gestione manageriale basati sulla compassione.",
+      "punti_chiave": [
+        "La vera pace (Shanti) non è il silenzio assoluto, ma una vibrazione consapevole e comprensiva.",
+        "Impossibilità di eliminare i cinque elementi; l'obiettivo è il loro corretto incanalamento.",
+        "Leadership basata sulla clemenza e sull'amore piuttosto che sulla punizione autoritaria.",
+        "La legge di sequenza e conseguenza: ogni azione crea una reazione karmica inevitabile."
+      ],
+      "citazioni_celebri": [
+        "Ciò che controlla un altro uomo non è il grado o lo status, ma la vibrazione su cui l'altro può fare affidamento."
+      ],
+      "contenuto_esteso_markdown": "### Oltre il Controllo Repressivo\nAnalisi psicologica ed etica per affrontare i problemi quotidiani e professionali mantenendo una coscienza elevata."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Kriya",
+      "nome": "Kriya di Innalzamento Energetico",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Esercizi di respirazione ritmica per spostare l'energia dal triangolo inferiore ai centri superiori."
+    }
+  },
+  {
+    "id": "lot-19710418-01",
+    "codice_originale": "056",
+    "titolo": {
+      "italiano": "Verità Assoluta e Universalità delle Scritture",
+      "originale": "Absolute Truth and the Universality of Scriptures"
+    },
+    "data_lezione": "1971-04-18",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Studio sull'interpretazione dei testi sacri in base a tempo e luogo (Kaal e Desh), sul ruolo del maestro come postino e sulla metamorfosi dell'uomo in era di Aquarius.",
+      "punti_chiave": [
+        "Le scritture contengono analogie modellate sulle circostanze storiche, non mere cronache storiche.",
+        "Il maestro funge da canale di consegna (postino) e non deve sostituirsi alla destinazione divina.",
+        "L'uomo ha il privilegio unico, rispetto agli animali, di poter addestrare la propria mente.",
+        "L'amore è il potere di sacrificarsi per la verità, rifiutando di prendere e scegliendo di dare."
+      ],
+      "citazioni_celebri": [
+        "Il maestro non scrive la sua lettera, la consegna. Ma oggi i postini sono diventati scrittori di lettere."
+      ],
+      "contenuto_esteso_markdown": "### La Scienza della Verità Immutabile\nRiflessioni profonde sull'unità delle tradizioni spirituali e sull'uso della meditazione come SOS cosmico."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Meditazione",
+      "nome": "Meditazione con Sat Nam",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Proiezione della mente oltre l'etere con focalizzazione sulla vibrazione Sat Nam."
+    }
+  },
+  {
+    "id": "lot-19710420-01",
+    "codice_originale": "057",
+    "titolo": {
+      "italiano": "Insicurezza, Tecnologia dei Mantra e Focus Spirituale",
+      "originale": "Insecurity, Mantra Technology and Spiritual Focus"
+    },
+    "data_lezione": "1971-04-20",
+    "luogo_originale": "Claremont, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Conferenza al Claremont College: relazione tra insicurezza ed ego, i mantra come codici telefonici cosmici e l'importanza di una focalizzazione univoca.",
+      "punti_chiave": [
+        "L'insicurezza maschile genera proiezioni egoiche che danneggiano le relazioni interpersonali.",
+        "I mantra funzionano come combinazioni numeriche telefoniche per connettersi a frequenze specifiche.",
+        "La Provvidenza divina provvede a ogni necessità; l'ansia nasce dalla mancanza di fede.",
+        "La vita è come un viaggio: farsi distrarre dai panorami laterali fa perdere la meta finale."
+      ],
+      "citazioni_celebri": [
+        "Uomo, relazionati consapevolmente alla tua coscienza suprema; la coscienza universale ti servirà."
+      ],
+      "contenuto_esteso_markdown": "### La Tecnologia della Frequenza Sacra\nAnalisi di parabole e precetti pratici per superare le distrazioni mondane e fortificare la forza circostante (aura)."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Kriya",
+      "nome": "Kriya di Concentrazione e Pranayama",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Respirazione profonda con mudra delle mani per stabilizzare il campo magnetico e calmare il sistema nervoso."
+    }
+  },
+  {
+    "id": "lot-19710420-02",
+    "codice_originale": "058",
+    "titolo": {
+      "italiano": "Il Pericolo della Maldicenza e la Nascita di Peace Lagoon",
+      "originale": "The Danger of Badmouthing and Peace Lagoon"
+    },
+    "data_lezione": "1971-04-20",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Lezione focalizzata sul potere distruttivo del parlare male degli altri, sulla lingua come quadrante telefonico e sulla pubblicazione delle scritture in inglese americano.",
+      "punti_chiave": [
+        "La maldicenza è l'espulsione di spazzatura interiore che avvelena sia chi parla sia chi ascolta.",
+        "Ascoltare negatività genera complessi di paura che annullano la divinità individuale.",
+        "La lingua compone frequenze: parole buone chiamano guarigione, parole malvagie chiamano problemi.",
+        "Presentazione del libro 'Peace Lagoon', tradotto in 45 giorni di intenso sadhana per i figli dell'Acquario."
+      ],
+      "citazioni_celebri": [
+        "La lingua è il quadrante telefonico: ciò che componi, quello ricevi."
+      ],
+      "contenuto_esteso_markdown": "### La Purificazione della Parola\nLinee guida etiche sull'uso dei filtri sensoriali e sulla saggezza universale ereditata da Guru Nanak."
+    },
+    "pratica": {
+      "presente": true,
+      "tipo": "Meditazione",
+      "nome": "Meditazione sul Silenzio e sul Suono",
+      "durata_consigliata": "11 minuti",
+      "istruzioni_sintetiche": "Ascolto del silenzio interiore e ripetizione di canti protettivi per pulire i canali uditivi."
+    }
+  },
+  {
+    "id": "lot-19710426-01",
+    "codice_originale": "059",
+    "titolo": {
+      "italiano": "La Scienza della Consapevolezza e l'Autodisciplina",
+      "originale": "The Science of Awareness and Self-Discipline"
+    },
+    "data_lezione": "1971-04-26",
+    "luogo_originale": "Los Angeles, CA",
+    "url_originale": "https://www.libraryofteachings.com",
+    "podcast": {
+      "audio_url": "",
+      "durata_formattata": "N/D"
+    },
+    "riassunto": {
+      "sintesi_breve": "Studio approfondito su come trasformarsi in esseri superiori attraverso il Raja Yoga, il controllo del respiro e la moderazione nel cibo e nel sonno.",
+      "punti_chiave": [
+        "L'essere superiore si costruisce momento dopo momento attraverso piccole vittorie della volontà.",
+        "La mente è più veloce del tempo, ma può essere governata rallentando il respiro a 8 atti al minuto.",
+        "Consigli per la longevità: moderazione alimentare (Alap Ahaar) e sonno ridotto (4-5 ore).",
+        "L'ego limitato deve essere trasformato in ego universale al servizio del prossimo."
+      ],
+      "citazioni_celebri": [
+        "Ogni volta che agisci secondo ciò che sai essere giusto anziché per impulso, ottieni una vittoria su te stesso."
+      ],
+      "contenuto_esteso_markdown": "### Anatomia della Consapevolezza\nEsplorazione del sistema nervoso, dei 72.000 nadi e della gestione energetica per affrontare l'Era dell'Acquario."
+    },
+    "pratica": {
+      "presente
