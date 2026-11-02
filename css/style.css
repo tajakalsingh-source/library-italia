@@ -23,3 +23,14 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 150ms;
 }
+/* Testo della sintesi (arriva dal Word come HTML) */
+.sintesi { color: #44403c; line-height: 1.7; font-size: 0.95rem; }
+.sintesi p { margin: 0 0 0.9rem; }
+.sintesi h3 { font-family: 'Playfair Display', serif; font-size: 1.2rem; font-weight: 700; color: #1c1917; margin: 1.6rem 0 0.6rem; }
+.sintesi h4, .sintesi h5 { font-weight: 700; color: #92400e; margin: 1.2rem 0 0.5rem; }
+.sintesi ul { list-style: disc; padding-left: 1.4rem; margin: 0 0 0.9rem; }
+.sintesi li { margin-bottom: 0.4rem; }
+.sintesi hr { border: 0; border-top: 1px solid #e8dec9; margin: 1.5rem 0; }
+.sintesi table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.875rem; }
+.sintesi td { border: 1px solid #e8dec9; padding: 0.5rem 0.7rem; vertical-align: top; }
+.sintesi tr:first-child td { background: #f5f0e6; }
