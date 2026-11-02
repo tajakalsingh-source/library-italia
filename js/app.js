@@ -75,7 +75,12 @@ async function openLesson(i) {
     $('m-link').style.display = l.link ? 'inline-flex' : 'none';
     if (l.link) $('m-link').href = l.link;
     $('m-audio-box').style.display = l.audio ? 'block' : 'none';
-    $('m-audio').src = l.audio || '';
+    // I link di Google Drive non si possono suonare con <audio>: si usa il player integrato di Drive
+    const dm = (l.audio || '').match(/drive\.google\.com\/uc\?export=download&id=([\w-]+)/);
+    $('m-audio').style.display = dm ? 'none' : '';
+    $('m-frame').classList.toggle('hidden', !dm);
+    $('m-frame').src = dm ? `https://drive.google.com/file/d/${dm[1]}/preview` : 'about:blank';
+    if (dm || !l.audio) $('m-audio').removeAttribute('src'); else $('m-audio').src = l.audio;
     $('m-download').href = l.audio || '#';
     $('m-sintesi').innerHTML = '<p>Caricamento…</p>';
     $('lesson-modal').classList.remove('hidden');
@@ -90,6 +95,7 @@ async function openLesson(i) {
 
 function closeLesson() {
     $('m-audio').pause();
+    $('m-frame').src = 'about:blank';
     $('lesson-modal').classList.add('hidden');
     document.body.style.overflow = '';
 }
