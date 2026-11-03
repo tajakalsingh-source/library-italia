@@ -103,6 +103,11 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLesson(
 
 function openInfoModal() {
     const modal = $('info-modal');
+    document.querySelectorAll('#info-list li').forEach(li => {
+        const ok = LESSONS.some(l => l.codice === li.dataset.c);
+        li.classList.toggle('cursor-pointer', ok);
+        li.classList.toggle('hover:text-amber-800', ok);
+    });
     modal.classList.remove('hidden');
     setTimeout(() => modal.classList.remove('opacity-0'), 10);
 }
@@ -111,4 +116,11 @@ function closeInfoModal() {
     const modal = $('info-modal');
     modal.classList.add('opacity-0');
     setTimeout(() => modal.classList.add('hidden'), 300);
+}
+
+function openByCode(c) {
+    const i = LESSONS.findIndex(l => l.codice === c);
+    if (i < 0) return;
+    closeInfoModal();
+    openLesson(i);
 }
