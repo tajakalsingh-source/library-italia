@@ -22,7 +22,7 @@
 <body class="h-full text-stone-800 flex flex-col font-sans antialiased bg-stone-50 pb-12">
 
     <header class="sticky top-0 z-30 bg-sand-50/90 backdrop-blur-md border-b border-sand-200">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center h-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-20">
             <div class="flex items-center gap-3 cursor-pointer" onclick="showHome()">
                 <div class="w-11 h-11 rounded-2xl bg-amber-700 text-white flex items-center justify-center shadow-md text-xl">🪷</div>
                 <div>
@@ -30,6 +30,10 @@
                     <span class="block text-xs text-amber-800 font-medium tracking-wide uppercase">Archivio Insegnamenti in Italiano</span>
                 </div>
             </div>
+            <button onclick="openInfoModal()" class="flex items-center gap-2 px-3.5 py-2 rounded-xl text-sm font-medium bg-amber-700 hover:bg-amber-800 text-white transition shadow-sm cursor-pointer">
+                <i class="fa-podcast fa-solid"></i>
+                <span class="hidden sm:inline">Info Podcast</span>
+            </button>
         </div>
     </header>
 
@@ -91,6 +95,25 @@
                         </div>
                     </div>
                     <div id="m-sintesi" class="sintesi"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="info-modal" class="fixed inset-0 z-50 overflow-y-auto bg-stone-900/60 backdrop-blur-sm hidden opacity-0 transition-opacity duration-300">
+        <div class="min-h-screen px-4 text-center flex items-center justify-center py-12">
+            <div class="bg-white w-full max-w-md rounded-3xl text-left overflow-hidden shadow-2xl p-6 relative my-auto border border-stone-200">
+                <button onclick="closeInfoModal()" class="absolute top-5 right-5 text-stone-400 hover:text-stone-700 cursor-pointer">
+                    <i class="fa-solid fa-xmark text-lg"></i>
+                </button>
+                <h3 class="text-xl font-serif font-bold text-stone-900 mb-2">Info sul Progetto</h3>
+                <p class="text-stone-600 text-xs leading-relaxed">
+                    Sito personale di studio per l'archivio della <strong>Library of Teachings</strong> in lingua italiana, diviso in moduli ad alta velocità con audio integrati e trascrizioni essenziali.
+                </p>
+                <div class="mt-6">
+                    <button onclick="closeInfoModal()" class="w-full py-2.5 bg-stone-900 text-white rounded-xl text-xs font-semibold cursor-pointer">
+                        Chiudi
+                    </button>
                 </div>
             </div>
         </div>
